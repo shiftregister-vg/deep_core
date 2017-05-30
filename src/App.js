@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+  PilotCard
+} from './components/cards'
 import './App.css';
+
+const major_stridan = {
+  title: '•Major Stridan',
+  ship: 'Upsilon-class Shuttle',
+  description: 'For the purpose of your actions and Upgrade cards, you may treat friendly ships at Range 2-3 as being at Range 1.',
+  skill: 4,
+  damage: 4,
+  agility: 1,
+  hull: 6,
+  shield: 6,
+  value: 32
+}
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <PilotCard pilot={major_stridan} />
       </div>
     );
   }
