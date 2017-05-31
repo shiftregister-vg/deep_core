@@ -13,7 +13,9 @@ const major_stridan = {
   agility: 1,
   hull: 6,
   shield: 6,
-  value: 32
+  value: 32,
+  mods: [1, 2, 3, 4, 5],
+  actions: [1, 2, 3]
 }
 
 class App extends Component {

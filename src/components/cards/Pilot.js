@@ -12,13 +12,13 @@ const Header = ({skill, title, ship}) => (
       <div className="title">{title}</div>
       <div className="ship">{ship}</div>
     </div>
-    <div className="faction">Faction</div>
+    <div className="faction">F</div>
   </header>
 )
 
 const StatBox = ({stat, value}) => (
   <div className={`${stat} box`}>
-    <div className="icon">Icon</div>
+    <div className="icon">{stat}</div>
     <div className="value">{value}</div>
   </div>
 )
@@ -32,38 +32,55 @@ const Stats = ({agility, damage, hull, shield}) => (
   </div>
 )
 
+const Action = (props) => (
+  <div className="action">A</div>
+)
+
+const Actions = ({actions}) => (
+  <div className="actions">
+    {actions.map(action => (
+      <Action />
+    ))}
+  </div>
+)
+
 const Description = ({text}) => (
   <div className="description">
-    {text}
+    <p>{text}</p>
+  </div>
+)
+
+const DescriptionActions = ({actions, description}) => (
+  <div className="description-actions">
+    <Description text={description} />
+    <Actions actions={actions} />
   </div>
 )
 
 const Detail = props => (
   <div className="detail">
     <Stats {...props} />
-    <Description text={props.description} />
+    <DescriptionActions {...props} />
   </div>
 )
 
 const Ship = props => (
-  <div className="ship">
-    Ship
-  </div>
+  <div className="ship">S</div>
 )
 
-const Tray = props => (
+const Tray = ({mods}) => (
   <div className="tray">
-    <div className="icon">Icon</div>
-    <div className="icon">Icon</div>
-    <div className="icon">Icon</div>
+    {mods.map(mod => (
+      <div className="icon">M</div>
+    ))}
   </div>
 )
 
-const Mods = props => (
+const Mods = ({mods, value}) => (
   <div className="mods">
     <Ship />
-    <Tray />
-    <div className="value">Value</div>
+    <Tray mods={mods} />
+    <div className="value">{value}</div>
   </div>
 )
 

@@ -1,5 +1,4 @@
 .pilot-card {
-  border: 1px solid white;
   border-radius: 10px;
   background-color: #eee;
   color: black;
@@ -13,7 +12,8 @@
 .pilot-card .art {
   order: 1;
   flex-basis: 30%;
-  background-color: #ff9898;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .pilot-card header {
@@ -21,16 +21,18 @@
   flex-basis: 17%;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
+  align-content: stretch;
 }
 .pilot-card header .skill {
   order: 1;
-  background-color: #6cfb6c;
   flex-basis: 19%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 .pilot-card header .title-ship {
   order: 2;
-  background-color: #9aff9a;
   justify-content: center;
   text-align: center;
   display: flex;
@@ -38,13 +40,15 @@
   flex-basis: 62%;
 }
 .pilot-card header .title-ship .title {
-  border-bottom: solid 1px #6cfb6c;
+  font-size: 1rem;
 }
-.pilot-card header .title-ship .ship {}
+.pilot-card header .title-ship .ship {
+  font-size: 1.1rem;
+}
 .pilot-card header .faction {
   order: 3;
-  background-color: #6cfb6c;
   flex-basis: 19%;
+  text-align: center;
 }
 
 .pilot-card .detail {
@@ -52,26 +56,31 @@
   flex-basis: 42%;
   display: flex;
   align-items: stretch;
-  background-color: #86b6ff;
 }
 
 .pilot-card .detail .stats {
   order: 1;
   flex-basis: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .pilot-card .detail .stats .box {
   display: flex;
-  align-items: stretch;
-  flex-grow: 1;
+  align-items: center;
 }
 .pilot-card .detail .stats .box .icon {
   order: 1;
   flex-basis: 51%;
+  text-align: left;
+  overflow: hidden;
 }
 .pilot-card .detail .stats .box .value {
   order: 2;
   flex-basis: 41%;
   font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .pilot-card .detail .stats .damage {
@@ -102,21 +111,59 @@
 .pilot-card .detail .stats .shield .value {
   color: blue;
 }
-.pilot-card .detail .description {
+
+.pilot-card .detail .description-actions {
   order: 2;
   flex-basis: 69%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+.pilot-card .detail .description-actions .description {
+  order: 1;
+  flex-basis: 62%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 2px 7px 2px 7px;
+}
+.pilot-card .detail .description-actions .description p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.pilot-card .detail .description-actions .actions {
+  order: 2;
+  flex-basis: 38%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.pilot-card .detail .description-actions .actions .action {}
 
 .pilot-card .mods {
   order: 4;
   flex-basis: 11%;
   display: flex;
-  background-color: #fe94fe;
+  flex-direction: row;
+  align-items: center;
 }
-.pilot-card .mods .ship {}
+.pilot-card .mods .ship {
+  order: 1;
+  flex-basis: 17%;
+  text-align: center;
+}
 .pilot-card .mods .tray {
+  order: 2;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 55%;
 }
-.pilot-card .mods .tray .icon {}
-.pilot-card .mods .value {}
+.pilot-card .mods .tray .icon {
+  padding: 0 2px 0 2px;
+}
+.pilot-card .mods .value {
+  order: 3;
+  flex-basis: 28%;
+  text-align: center;
+}
