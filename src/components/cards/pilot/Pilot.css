@@ -13,7 +13,7 @@
   order: 1;
   flex-basis: 30%;
   text-align: center;
-  vertical-align: middle;
+  background-color: black;
 }
 
 .pilot-card header {
@@ -31,7 +31,7 @@
   font-weight: bold;
   text-align: center;
 }
-.pilot-card header .title-ship {
+.pilot-card header .name-ship {
   order: 2;
   justify-content: center;
   text-align: center;
@@ -39,16 +39,17 @@
   flex-direction: column;
   flex-basis: 62%;
 }
-.pilot-card header .title-ship .title {
+.pilot-card header .name-ship .name {
   font-size: 1rem;
 }
-.pilot-card header .title-ship .ship {
+.pilot-card header .name-ship .ship {
   font-size: 1.1rem;
 }
 .pilot-card header .faction {
   order: 3;
   flex-basis: 19%;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .pilot-card .detail {
@@ -72,53 +73,54 @@
 .pilot-card .detail .stats .box .icon {
   order: 1;
   flex-basis: 51%;
-  text-align: left;
+  text-align: right;
+  font-size: 1.25rem;
   overflow: hidden;
 }
 .pilot-card .detail .stats .box .value {
   order: 2;
-  flex-basis: 41%;
+  flex-basis: 49%;
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
 }
 
-.pilot-card .detail .stats .damage {
+.pilot-card .detail .stats .attack {
   order: 1;
 }
-.pilot-card .detail .stats .damage .icon {}
-.pilot-card .detail .stats .damage .value {
+.pilot-card .detail .stats .attack .icon,
+.pilot-card .detail .stats .attack .value {
   color: red;
 }
 .pilot-card .detail .stats .agility {
   order: 2;
 }
-.pilot-card .detail .stats .agility .icon {}
+.pilot-card .detail .stats .agility .icon,
 .pilot-card .detail .stats .agility .value {
   color: green;
 }
 .pilot-card .detail .stats .hull {
   order: 3;
 }
-.pilot-card .detail .stats .hull .icon {}
+.pilot-card .detail .stats .hull .icon,
 .pilot-card .detail .stats .hull .value {
-  color: yellow;
+  color: #dbd421;
 }
 .pilot-card .detail .stats .shield {
   order: 4;
 }
-.pilot-card .detail .stats .shield .icon {}
+.pilot-card .detail .stats .shield .icon,
 .pilot-card .detail .stats .shield .value {
   color: blue;
 }
 
-.pilot-card .detail .description-actions {
+.pilot-card .detail .text-actions {
   order: 2;
   flex-basis: 69%;
   display: flex;
   flex-direction: column;
 }
-.pilot-card .detail .description-actions .description {
+.pilot-card .detail .text-actions .text {
   order: 1;
   flex-basis: 62%;
   display: flex;
@@ -126,11 +128,11 @@
   align-items: center;
   padding: 2px 7px 2px 7px;
 }
-.pilot-card .detail .description-actions .description p {
+.pilot-card .detail .text-actions .text p {
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
-.pilot-card .detail .description-actions .actions {
+.pilot-card .detail .text-actions .actions {
   order: 2;
   flex-basis: 38%;
   display: flex;
@@ -138,7 +140,7 @@
   align-items: center;
   justify-content: space-around;
 }
-.pilot-card .detail .description-actions .actions .action {}
+.pilot-card .detail .text-actions .actions .action {}
 
 .pilot-card .mods {
   order: 4;
@@ -151,6 +153,7 @@
   order: 1;
   flex-basis: 17%;
   text-align: center;
+  font-size: 1.7rem;
 }
 .pilot-card .mods .tray {
   order: 2;
