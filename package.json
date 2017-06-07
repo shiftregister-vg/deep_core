@@ -26,5 +26,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://stevegood.github.io/mxwsb"
+  "homepage": "http://www.stevegood.rocks/mxwsb"
 }
