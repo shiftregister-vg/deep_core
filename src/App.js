@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
-import HomePage from './HomePage'
-import PilotSheet from './PilotSheet'
+import {
+  HomePage,
+  PilotSheetPage
+} from './pages'
 import './App.css'
 
 class App extends Component {
@@ -10,7 +12,7 @@ class App extends Component {
       <div>
         <div className="app">
           <Route exact path="/" component={HomePage} />
-          <Route path="/pilot-sheet" component={PilotSheet} />
+          <Route path="/pilot-sheet" component={PilotSheetPage} />
         </div>
       </div>
     );
