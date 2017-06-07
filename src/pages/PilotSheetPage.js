@@ -10,6 +10,7 @@ import './PilotSheetPage.css'
 class PilotSheet extends Component {
   render() {
     const { match } = this.props
+    const urlBase = `${match.url}${match.url.endsWith('/') ? '' : '/'}`
     return (
       <div>
         <Route path={`${match.url}/:pilotId`} component={PilotCardPage} />
@@ -18,7 +19,9 @@ class PilotSheet extends Component {
             {pilots
               .sort((a, b) => a.id - b.id)
               .map(pilot => (
-                <Link key={pilot.id} to={`${match.url}${pilot.id}`}>
+                <Link
+                  key={pilot.id}
+                  to={`${urlBase}${pilot.id}`}>
                   <PilotCard pilot={pilot} />
                 </Link>
               ))}
