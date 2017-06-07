@@ -2,7 +2,7 @@ import React from 'react'
 
 const Art = ({image, faction}) => (
   <div className="art" style={{
-    backgroundImage: `url("/art/card/pilot/${faction}/${image}")`
+    backgroundImage: `url("${process.env.PUBLIC_URL}/art/card/pilot/${faction}/${image}")`
   }}></div>
 )
 
