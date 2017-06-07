@@ -7,6 +7,7 @@
   height: 418px; /* 139.4% of height | floor(w * 1.394) */
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 .pilot-card .art {
