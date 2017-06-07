@@ -4,7 +4,6 @@ import PilotCardPage from './PilotCardPage'
 import {
   PilotCard
 } from '../components/cards'
-// import { findInDataBy } from './data'
 import pilots from '../data/pilots'
 import './PilotSheetPage.css'
 
