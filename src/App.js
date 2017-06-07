@@ -1,23 +1,17 @@
-import React, { Component } from 'react';
-import {
-  PilotCard
-} from './components/cards'
-// import { findInDataBy } from './data'
-import pilots from './data/pilots'
-import './App.css';
+import React, { Component } from 'react'
+import { Route } from 'react-router-dom'
+import HomePage from './HomePage'
+import PilotSheet from './PilotSheet'
+import './App.css'
 
 class App extends Component {
   render() {
     return (
       <div>
         <div className="app">
-          {pilots
-            .sort((a, b) => a.id - b.id)
-            .map(pilot => <PilotCard key={pilot.id} pilot={pilot} />)
-          }
+          <Route exact path="/" component={HomePage} />
+          <Route path="/pilot-sheet" component={PilotSheet} />
         </div>
-        <hr />
-        <h2 style={{textAlign: 'center'}}>{pilots.length} Pilots</h2>
       </div>
     );
   }
