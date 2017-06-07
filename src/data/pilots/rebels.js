@@ -9,7 +9,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 29,
   actions: [],
-  mods: [ 'elite', 'torpedo', 'astromech' ],
+  slots: [ 'elite', 'torpedo', 'astromech' ],
   image: ''
 }, {
   id: 1,
@@ -22,7 +22,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'torpedo', 'astromech' ],
+  slots: [ 'torpedo', 'astromech' ],
   image: ''
 }, {
  id: 2,
@@ -35,7 +35,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: ['torpedo', 'astromech'],
+ slots: ['torpedo', 'astromech'],
  image: ''
 }, {
  id: 3,
@@ -48,7 +48,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 21,
  actions: [],
- mods: ['torpedo', 'astromech'],
+ slots: ['torpedo', 'astromech'],
  image: ''
 },{
  id: 4,
@@ -61,7 +61,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 25,
  actions: [],
- mods: ['torpedo', 'astromech'],
+ slots: ['torpedo', 'astromech'],
  image: ''
 },{
  id: 5,
@@ -74,7 +74,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 28,
  actions: [],
- mods: ['elite', 'torpedo', 'astromech'],
+ slots: ['elite', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 6,
@@ -87,7 +87,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 20,
  actions: [],
- mods: ['turret', 'torpedo', 'torpedo', 'astromech'],
+ slots: ['turret', 'torpedo', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 7,
@@ -100,7 +100,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: ['turret', 'torpedo', 'torpedo', 'astromech'],
+ slots: ['turret', 'torpedo', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 8,
@@ -113,7 +113,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 25,
  actions: [],
- mods: ['turret', 'torpedo', 'torpedo', 'astromech'],
+ slots: ['turret', 'torpedo', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 9,
@@ -126,7 +126,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 18,
  actions: [],
- mods: ['turret', 'torpedo', 'torpedo', 'astromech'],
+ slots: ['turret', 'torpedo', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 29,
@@ -139,7 +139,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 26,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 30,
@@ -152,7 +152,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 31,
@@ -165,7 +165,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 19,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 32,
@@ -178,7 +178,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 17,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 33,
@@ -191,7 +191,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['crew', 'crew'],
+ slots: ['crew', 'crew'],
  image: ''
 }, {
  id: 34,
@@ -204,7 +204,7 @@ const rebel_pilots = [{
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 42,
  actions: [],
- mods: ['elite', 'missle', 'crew', 'crew'],
+ slots: ['elite', 'missle', 'crew', 'crew'],
  image: ''
 }, {
  id: 35,
@@ -217,7 +217,7 @@ const rebel_pilots = [{
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 44,
  actions: [],
- mods: ['elite', 'missile', 'crew', 'crew'],
+ slots: ['elite', 'missile', 'crew', 'crew'],
  image: ''
 }, {
  id: 36,
@@ -230,7 +230,7 @@ const rebel_pilots = [{
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 46,
  actions: [],
- mods: ['elite', 'missile', 'crew', 'crew'],
+ slots: ['elite', 'missile', 'crew', 'crew'],
  image: ''
 }, {
  id: 41,
@@ -243,7 +243,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 31,
  actions: [],
- mods: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
+ slots: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
  id: 42,
@@ -256,7 +256,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 28,
  actions: [],
- mods: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
+ slots: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
  id: 43,
@@ -269,7 +269,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 24,
  actions: [],
- mods: ['system', 'cannon', 'torpedo', 'torpedo'],
+ slots: ['system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
  id: 44,
@@ -282,7 +282,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 22,
  actions: [],
- mods: ['system', 'cannon', 'torpedo', 'torpedo'],
+ slots: ['system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
  id: 45,
@@ -295,7 +295,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 16,
  actions: [],
- mods: ['turret', 'crew'],
+ slots: ['turret', 'crew'],
  image: ''
 }, {
  id: 46,
@@ -308,7 +308,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 19,
  actions: [],
- mods: ['turret', 'crew'],
+ slots: ['turret', 'crew'],
  image: ''
 }, {
  id: 47,
@@ -321,7 +321,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 21,
  actions: [],
- mods: ['elite', 'turret', 'crew'],
+ slots: ['elite', 'turret', 'crew'],
  image: ''
 }, {
  id: 48,
@@ -334,7 +334,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 25,
  actions: [],
- mods: ['elite', 'turret', 'crew'],
+ slots: ['elite', 'turret', 'crew'],
  image: ''
 }, {
  id: 63,
@@ -348,7 +348,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 30,
  actions: [],
- mods: ['crew', 'crew', 'cargo', 'cargo', 'cargo'],
+ slots: ['crew', 'crew', 'cargo', 'cargo', 'cargo'],
  image: ''
 }, {
  id: 64,
@@ -361,7 +361,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 12,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 65,
@@ -374,7 +374,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 13,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 66,
@@ -387,7 +387,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 17,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 67,
@@ -400,7 +400,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 19,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 72,
@@ -413,7 +413,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['system', 'torpedo', 'astromech'],
+ slots: ['system', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 73,
@@ -426,7 +426,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 29,
  actions: [],
- mods: ['system', 'torpedo', 'astromech'],
+ slots: ['system', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 74,
@@ -439,7 +439,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 32,
  actions: [],
- mods: ['elite', 'system', 'torpedo', 'astromech'],
+ slots: ['elite', 'system', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 75,
@@ -452,7 +452,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 35,
  actions: [],
- mods: ['elite', 'system', 'torpedo', 'astromech'],
+ slots: ['elite', 'system', 'torpedo', 'astromech'],
  image: ''
 }, {
  id: 80,
@@ -466,7 +466,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 50,
  actions: [],
- mods: ['crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo'],
+ slots: ['crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo'],
  image: ''
 }, {
  id: 81,
@@ -480,7 +480,7 @@ const rebel_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 40,
  actions: [],
- mods: ['crew', 'hardpoint', 'team', 'cargo'],
+ slots: ['crew', 'hardpoint', 'team', 'cargo'],
  image: ''
 }, {
   id: 82,
@@ -493,7 +493,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 29,
   actions: [],
-  mods: [ 'elite', 'torpedo', 'astromech' ],
+  slots: [ 'elite', 'torpedo', 'astromech' ],
   image: ''
 }, {
   id: 83,
@@ -506,7 +506,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 26,
   actions: [],
-  mods: [ 'elite', 'torpedo', 'astromech' ],
+  slots: [ 'elite', 'torpedo', 'astromech' ],
   image: ''
 }, {
   id: 84,
@@ -519,7 +519,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 25,
   actions: [],
-  mods: [ 'torpedo', 'astromech' ],
+  slots: [ 'torpedo', 'astromech' ],
   image: ''
 }, {
   id: 85,
@@ -532,7 +532,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'torpedo', 'astromech' ],
+  slots: [ 'torpedo', 'astromech' ],
   image: ''
 }, {
   id: 86,
@@ -545,7 +545,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 24,
   actions: [],
-  mods: [ 'elite', 'missile' ],
+  slots: [ 'elite', 'missile' ],
   image: ''
 }, {
   id: 87,
@@ -558,7 +558,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 22,
   actions: [],
-  mods: [ 'missile' ],
+  slots: [ 'missile' ],
   image: ''
 }, {
   id: 88,
@@ -571,7 +571,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 29,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'torpedo', 'torpedo' ],
+  slots: [ 'elite', 'system', 'cannon', 'torpedo', 'torpedo' ],
   image: ''
 }, {
   id: 89,
@@ -584,7 +584,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 26,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'torpedo', 'torpedo' ],
+  slots: [ 'elite', 'system', 'cannon', 'torpedo', 'torpedo' ],
   image: ''
 }, {
   id: 90,
@@ -598,7 +598,7 @@ const rebel_pilots = [{
   stats: { attack: 2, agility: 0, hull: 0, shield: 0 },
   value: 0,
   actions: [],
-  mods: ['crew'],
+  slots: ['crew'],
   image: ''
 }, {
   id: 91,
@@ -612,7 +612,7 @@ const rebel_pilots = [{
   stats: { energy: 1, attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 0,
   actions: [],
-  mods: ['crew', 'hardpoint', 'team', 'cargo'],
+  slots: ['crew', 'hardpoint', 'team', 'cargo'],
   image: ''
 }, {
   id: 93,
@@ -625,7 +625,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 32,
   actions: [],
-  mods: [ 'cannon', 'missile', 'crew' ],
+  slots: [ 'cannon', 'missile', 'crew' ],
   image: ''
 }, {
   id: 94,
@@ -638,7 +638,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 34,
   actions: [],
-  mods: [ 'elite', 'cannon', 'missile', 'crew' ],
+  slots: [ 'elite', 'cannon', 'missile', 'crew' ],
   image: ''
 }, {
   id: 95,
@@ -651,7 +651,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'elite', 'cannon', 'missile', 'crew' ],
+  slots: [ 'elite', 'cannon', 'missile', 'crew' ],
   image: ''
 }, {
   id: 139,
@@ -664,7 +664,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 29,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
   image: ''
 }, {
   id: 140,
@@ -677,7 +677,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 28,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
   image: ''
 }, {
   id: 141,
@@ -690,7 +690,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 25,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
   image: ''
 }, {
   id: 142,
@@ -703,7 +703,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'missile', 'crew', 'bomb' ],
   image: ''
 }, {
   id: 155,
@@ -716,7 +716,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 40,
   actions: [],
-  mods: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
+  slots: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
   image: ''
 }, {
   id: 156,
@@ -729,7 +729,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 38,
   actions: [],
-  mods: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
+  slots: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
   image: ''
 }, {
   id: 157,
@@ -742,7 +742,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 37,
   actions: [],
-  mods: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
+  slots: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
   image: ''
 }, {
   id: 158,
@@ -755,7 +755,7 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 35,
   actions: [],
-  mods: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
+  slots: [ 'system', 'turret', 'torpedo', 'torpedo', 'crew', 'crew' ],
   image: ''
 }, {
   id: 159,
@@ -768,7 +768,453 @@ const rebel_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 22,
   actions: [],
-  mods: [ 'elite', 'turret', 'crew' ],
+  slots: [ 'elite', 'turret', 'crew' ],
+  image: ''
+}, {
+  id: 160,
+  name: 'Sabine Wren',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'Attack Shuttle', icon: 'attackshuttle' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 21,
+  actions: [],
+  slots: [ 'elite', 'turret', 'crew' ],
+  image: ''
+}, {
+  id: 161,
+  name: 'Ezra Bridger',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'Attack Shuttle', icon: 'attackshuttle' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: [ 'elite', 'turret', 'crew' ],
+  image: ''
+}, {
+  id: 162,
+  name: '"Zeb" Orrelios',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'Attack Shuttle', icon: 'attackshuttle' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 18,
+  actions: [],
+  slots: [ 'turret', 'crew' ],
+  image: ''
+}, {
+  id: 175,
+  name: 'Poe Dameron',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 31,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 176,
+  name: '"Blue Ace"',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 27,
+  actions: [],
+  slots: [ 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 177,
+  name: 'Red Squadron Veteran',
+  faction: 'rebel',
+  unique: false,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 26,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 178,
+  name: 'Blue Squadron Novice',
+  faction: 'rebel',
+  unique: false,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 24,
+  actions: [],
+  slots: [ 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 185,
+  name: 'Ello Asty',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 30,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 186,
+  name: '"Red Ace"',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 29,
+  actions: [],
+  slots: [ 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 196,
+  name: 'Poe Dameron (PS9)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 9,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 33,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 197,
+  name: 'Nien Nunb',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 29,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 198,
+  name: '"Snap" Wexley',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 28,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 199,
+  name: 'Jess Pava',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'T-70 X-Wing', icon: 't70xwing' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: [ 'torpedo', 'astromech', 'tech' ],
+  image: ''
+}, {
+  id: 200,
+  name: 'Han Solo (TFA)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'YT-1300', icon: 'yt1300' },
+  text: '',
+  skill: 9,
+  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
+  value: 46,
+  actions: [],
+  slots: [ 'elite', 'missile', 'crew', 'crew' ],
+  image: ''
+}, {
+  id: 201,
+  name: 'Rey',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'YT-1300', icon: 'yt1300' },
+  text: '',
+  skill: 8,
+  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
+  value: 45,
+  actions: [],
+  slots: [ 'elite', 'missile', 'crew', 'crew' ],
+  image: ''
+}, {
+  id: 202,
+  name: 'Chewbacca (TFA)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'YT-1300', icon: 'yt1300' },
+  text: '',
+  skill: 5,
+  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
+  value: 42,
+  actions: [],
+  slots: [ 'elite', 'missile', 'crew', 'crew' ],
+  image: ''
+}, {
+  id: 203,
+  name: 'Resistance Sympathizer',
+  faction: 'rebel',
+  unique: false,
+  ship: { name: 'YT-1300', icon: 'yt1300' },
+  text: '',
+  skill: 3,
+  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
+  value: 38,
+  actions: [],
+  slots: [ 'missile', 'crew', 'crew' ],
+  image: ''
+}, {
+  id: 204,
+  name: 'Nora Wexley',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'ARC-170', icon: 'arc170' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 29,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'crew', 'astromech' ],
+  image: ''
+}, {
+  id: 205,
+  name: 'Shara Bey',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'ARC-170', icon: 'arc170' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 28,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'crew', 'astromech' ],
+  image: ''
+}, {
+  id: 206,
+  name: 'Thane Kyrell',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'ARC-170', icon: 'arc170' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 26,
+  actions: [],
+  slots: [ 'torpedo', 'crew', 'astromech' ],
+  image: ''
+}, {
+  id: 207,
+  name: 'Braylen Stramm',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'ARC-170', icon: 'arc170' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: [ 'torpedo', 'crew', 'astromech' ],
+  image: ''
+}, {
+  id: 222,
+  name: 'Ahsoka Tano',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 223,
+  name: 'Sabine Wren (TIE Fighter)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 15,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 224,
+  name: 'Captain Rex',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 14,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 225,
+  name: '"Zeb" Orrelios (TIE Fighter)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 13,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 234,
+  name: 'Cassian Andor',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'U-Wing', icon: 'uwing' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 27,
+  actions: [],
+  slots: ['elite', 'system', 'torpedo', 'crew', 'crew'],
+  image: ''
+}, {
+  id: 235,
+  name: 'Bodhi Rook',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'U-Wing', icon: 'uwing' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: ['system', 'torpedo', 'crew', 'crew'],
+  image: ''
+}, {
+  id: 236,
+  name: 'Heff Tobber',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'U-Wing', icon: 'uwing' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 24,
+  actions: [],
+  slots: ['system', 'torpedo', 'crew', 'crew'],
+  image: ''
+}, {
+  id: 237,
+  name: 'Blue Squadron Pathfinder',
+  faction: 'rebel',
+  unique: false,
+  ship: { name: 'U-Wing', icon: 'uwing' },
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 23,
+  actions: [],
+  slots: ['system', 'torpedo', 'crew', 'crew'],
+  image: ''
+}, {
+  id: 249,
+  name: 'Kashyyyk Defender',
+  faction: 'rebel',
+  unique: false,
+  epic: true,
+  ship: { name: 'Auzituck Gunship', icon: 'auzituckgunship' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 24,
+  actions: [],
+  slots: ['crew', 'crew'],
+  image: ''
+}, {
+  id: 250,
+  name: 'Wookiee ???',
+  faction: 'rebel',
+  unique: false,
+  epic: true,
+  ship: { name: 'Auzituck Gunship', icon: 'auzituckgunship' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['crew', 'crew'],
+  image: ''
+}, {
+  id: 251,
+  name: 'Lo???',
+  faction: 'rebel',
+  unique: false,
+  epic: true,
+  ship: { name: 'Auzituck Gunship', icon: 'auzituckgunship' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['crew', 'crew'],
+  image: ''
+}, {
+  id: 252,
+  name: 'Wull???',
+  faction: 'rebel',
+  unique: false,
+  epic: true,
+  ship: { name: 'Auzituck Gunship', icon: 'auzituckgunship' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['crew', 'crew'],
+  image: ''
+}, {
+  id: 254,
+  name: 'Captain Nym (Rebel)',
+  faction: 'rebel',
+  unique: true,
+  ship: { name: 'Scurrg H-6 Bomber', icon: 'scurrgh6bomber' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['elite', 'turret', 'torpedo', 'missile', 'crew', 'bomb', 'bomb'],
   image: ''
 }]
 

@@ -9,7 +9,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 31,
   actions: [],
-  mods: [ 'elite', 'torpedo' ],
+  slots: [ 'elite', 'torpedo' ],
   image: ''
 }, {
   id: 101,
@@ -22,7 +22,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 30,
   actions: [],
-  mods: [ 'elite', 'torpedo' ],
+  slots: [ 'elite', 'torpedo' ],
   image: ''
 }, {
   id: 102,
@@ -35,7 +35,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 27,
   actions: [],
-  mods: [ 'torpedo' ],
+  slots: [ 'torpedo' ],
   image: ''
 }, {
   id: 103,
@@ -48,7 +48,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 25,
   actions: [],
-  mods: [ 'torpedo' ],
+  slots: [ 'torpedo' ],
   image: ''
 }, {
   id: 104,
@@ -61,7 +61,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 20,
   actions: [],
-  mods: [ 'elite' ],
+  slots: [ 'elite' ],
   image: ''
 }, {
   id: 105,
@@ -74,7 +74,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 18,
   actions: [],
-  mods: [],
+  slots: [],
   image: ''
 }, {
   id: 106,
@@ -87,7 +87,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 17,
   actions: [],
-  mods: [ 'elite' ],
+  slots: [ 'elite' ],
   image: ''
 }, {
   id: 107,
@@ -100,7 +100,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 14,
   actions: [],
-  mods: [],
+  slots: [],
   image: ''
 }, {
   id: 108,
@@ -113,7 +113,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
+  slots: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
   image: ''
 }, {
   id: 109,
@@ -126,7 +126,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
+  slots: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
   image: ''
 }, {
   id: 110,
@@ -139,7 +139,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
+  slots: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
   image: ''
 }, {
   id: 111,
@@ -152,7 +152,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
+  slots: [ 'elite', 'system', 'cannon', 'cannon', 'bomb', 'illicit' ],
   image: ''
 }, {
   id: 112,
@@ -165,7 +165,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 17,
   actions: [],
-  mods: [ 'elite', 'missile', 'illicit' ],
+  slots: [ 'elite', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 113,
@@ -178,7 +178,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 15,
   actions: [],
-  mods: [ 'elite', 'missile', 'illicit' ],
+  slots: [ 'elite', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 114,
@@ -191,7 +191,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 13,
   actions: [],
-  mods: [ 'missile', 'illicit' ],
+  slots: [ 'missile', 'illicit' ],
   image: ''
 }, {
   id: 115,
@@ -204,7 +204,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 12,
   actions: [],
-  mods: [ 'missile', 'illicit' ],
+  slots: [ 'missile', 'illicit' ],
   image: ''
 }, {
   id: 116,
@@ -217,7 +217,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 39,
   actions: [],
-  mods: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
+  slots: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 117,
@@ -230,7 +230,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 38,
   actions: [],
-  mods: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
+  slots: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 118,
@@ -243,7 +243,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 36,
   actions: [],
-  mods: [ 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
+  slots: [ 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 119,
@@ -256,7 +256,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 35,
   actions: [],
-  mods: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
+  slots: [ 'elite', 'cannon', 'bomb', 'crew', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 120,
@@ -269,7 +269,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 24,
   actions: [],
-  mods: [ 'elite', 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
+  slots: [ 'elite', 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
   image: ''
 }, {
   id: 121,
@@ -282,7 +282,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 22,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
   image: ''
 }, {
   id: 122,
@@ -295,7 +295,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 20,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
   image: ''
 }, {
   id: 123,
@@ -308,7 +308,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 18,
   actions: [],
-  mods: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
+  slots: [ 'turret', 'torpedo', 'torpedo', 'salvagedastromech' ],
   image: ''
 }, {
   id: 124,
@@ -321,7 +321,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'elite', 'turret', 'crew', 'illicit' ],
+  slots: [ 'elite', 'turret', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 125,
@@ -334,7 +334,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 20,
   actions: [],
-  mods: [ 'elite', 'turret', 'crew', 'illicit' ],
+  slots: [ 'elite', 'turret', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 126,
@@ -347,7 +347,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 19,
   actions: [],
-  mods: [ 'turret', 'crew', 'illicit' ],
+  slots: [ 'turret', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 127,
@@ -360,7 +360,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 16,
   actions: [],
-  mods: [ 'turret', 'crew', 'illicit' ],
+  slots: [ 'turret', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 131,
@@ -373,7 +373,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 35,
   actions: [],
-  mods: [ 'elite', 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
+  slots: [ 'elite', 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 132,
@@ -386,7 +386,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 34,
   actions: [],
-  mods: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
+  slots: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 133,
@@ -399,7 +399,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 33,
   actions: [],
-  mods: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
+  slots: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 134,
@@ -412,7 +412,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 29,
   actions: [],
-  mods: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
+  slots: [ 'cannon', 'missile', 'crew', 'crew', 'crew', 'illicit' ],
   image: ''
 }, {
   id: 135,
@@ -425,7 +425,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 28,
   actions: [],
-  mods: [ 'elite', 'missile', 'illicit' ],
+  slots: [ 'elite', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 136,
@@ -438,7 +438,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 25,
   actions: [],
-  mods: [ 'missile', 'illicit' ],
+  slots: [ 'missile', 'illicit' ],
   image: ''
 }, {
   id: 137,
@@ -451,7 +451,7 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'elite', 'missile', 'illicit' ],
+  slots: [ 'elite', 'missile', 'illicit' ],
   image: ''
 }, {
   id: 138,
@@ -464,7 +464,59 @@ const scum_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 20,
   actions: [],
-  mods: [ 'missile', 'illicit' ],
+  slots: [ 'missile', 'illicit' ],
+  image: ''
+}, {
+  id: 167,
+  name: 'Zuckuss',
+  faction: 'scum',
+  ship: { name: 'G-1A Starfighter', icon: 'g1astarfighter' },
+  unique: true,
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 28,
+  actions: [],
+  slots: ['elite', 'crew', 'system', 'illicit'],
+  image: ''
+}, {
+  id: 168,
+  name: '4-LOM',
+  faction: 'scum',
+  ship: { name: 'G-1A Starfighter', icon: 'g1astarfighter' },
+  unique: true,
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 27,
+  actions: [],
+  slots: ['elite', 'crew', 'system', 'illicit'],
+  image: ''
+}, {
+  id: 169,
+  name: 'Gand Findsman',
+  faction: 'scum',
+  ship: { name: 'G-1A Starfighter', icon: 'g1astarfighter' },
+  unique: true,
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: ['elite', 'crew', 'system', 'illicit'],
+  image: ''
+}, {
+  id: 170,
+  name: 'Ruthless Freelancer',
+  faction: 'scum',
+  ship: { name: 'G-1A Starfighter', icon: 'g1astarfighter' },
+  unique: false,
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 23,
+  actions: [],
+  slots: ['crew', 'system', 'illicit'],
   image: ''
 }, {
   id: 171,
@@ -476,9 +528,413 @@ const scum_pilots = [{
   stats: { attack: 2, agility: 2, hull: 5, shield: 4 },
   value: 33,
   actions: [ 'focus', 'targetlock', 'barrelroll' ],
-  mods: [ 'elite', 'torpedo', 'torpedo', 'crew', 'salvagedastromech', 'illicit' ],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'crew', 'salvagedastromech', 'illicit' ],
   faction: 'scum',
   image: 'jumpmaster-5000-dengar.jpg'
+}, {
+  id: 172,
+  name: 'Tel Trevura',
+  unique: true,
+  ship: { name: 'JumpMaster 5000', icon: 'jumpmaster5000' },
+  text: '',
+  skill: 7,
+  stats: { attack: 2, agility: 2, hull: 5, shield: 4 },
+  value: 30,
+  actions: [ 'focus', 'targetlock', 'barrelroll' ],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'crew', 'salvagedastromech', 'illicit' ],
+  faction: 'scum',
+  image: ''
+}, {
+  id: 173,
+  name: 'Manaroo',
+  unique: true,
+  ship: { name: 'JumpMaster 5000', icon: 'jumpmaster5000' },
+  text: '',
+  skill: 4,
+  stats: { attack: 2, agility: 2, hull: 5, shield: 4 },
+  value: 27,
+  actions: [ 'focus', 'targetlock', 'barrelroll' ],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'crew', 'salvagedastromech', 'illicit' ],
+  faction: 'scum',
+  image: ''
+}, {
+  id: 174,
+  name: 'Contracted Scout',
+  unique: false,
+  ship: { name: 'JumpMaster 5000', icon: 'jumpmaster5000' },
+  text: '',
+  skill: 3,
+  stats: { attack: 2, agility: 2, hull: 5, shield: 4 },
+  value: 25,
+  actions: [ 'focus', 'targetlock', 'barrelroll' ],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'crew', 'salvagedastromech', 'illicit' ],
+  faction: 'scum',
+  image: ''
+}, {
+  id: 212,
+  name: 'Fenn Rau',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 9,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 28,
+  actions: [],
+  slots: [ 'elite', 'torpedo' ],
+  image: ''
+}, {
+  id: 213,
+  name: 'Old Teroch',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 26,
+  actions: [],
+  slots: [ 'elite', 'torpedo' ],
+  image: ''
+}, {
+  id: 214,
+  name: 'Kad Solus',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: [ 'elite', 'torpedo' ],
+  image: ''
+}, {
+  id: 215,
+  name: 'Concord Dawn Ace',
+  faction: 'scum',
+  unique: false,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 23,
+  actions: [],
+  slots: [ 'elite', 'torpedo' ],
+  image: ''
+}, {
+  id: 216,
+  name: 'Concord Dawn Veteran',
+  faction: 'scum',
+  unique: false,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 22,
+  actions: [],
+  slots: [ 'elite', 'torpedo' ],
+  image: ''
+}, {
+  id: 217,
+  name: 'Zealous Recruit',
+  faction: 'scum',
+  unique: false,
+  ship: { name: 'Protectorate Starfighter', icon: 'protectoratestarfighter' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: [ 'torpedo' ],
+  image: ''
+}, {
+  id: 218,
+  name: 'Ketsu Onyo',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Lancer-class Pursuit Craft', icon: 'lancerclasspursuitcraft' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 38,
+  actions: [],
+  slots: [ 'elite', 'crew', 'illicit', 'illicit' ],
+  image: ''
+}, {
+  id: 219,
+  name: 'Asajj Ventress',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Lancer-class Pursuit Craft', icon: 'lancerclasspursuitcraft' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 37,
+  actions: [],
+  slots: [ 'elite', 'crew', 'illicit', 'illicit' ],
+  image: ''
+}, {
+  id: 220,
+  name: 'Sabine Wren (Scum)',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Lancer-class Pursuit Craft', icon: 'lancerclasspursuitcraft' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 35,
+  actions: [],
+  slots: [ 'crew', 'illicit', 'illicit' ],
+  image: ''
+}, {
+  id: 221,
+  name: 'Shadowport Hunter',
+  faction: 'scum',
+  unique: false,
+  ship: { name: 'Lancer-class Pursuit Craft', icon: 'lancerclasspursuitcraft' },
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 33,
+  actions: [],
+  slots: [ 'crew', 'illicit', 'illicit' ],
+  image: ''
+}, {
+  id: 230,
+  name: 'Constable Zuvio',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'QuadJumper', icon: 'quadjumper' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: [ 'elite', 'crew', 'bomb', 'tech', 'illicit' ],
+  image: ''
+}, {
+  id: 231,
+  name: 'Sarco Plank',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'QuadJumper', icon: 'quadjumper' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 18,
+  actions: [],
+  slots: [ 'elite', 'crew', 'bomb', 'tech', 'illicit' ],
+  image: ''
+}, {
+  id: 232,
+  name: 'Unkar Plutt',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'QuadJumper', icon: 'quadjumper' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: [ 'crew', 'bomb', 'tech', 'illicit' ],
+  image: ''
+}, {
+  id: 233,
+  name: 'Jakku Gunrunner',
+  faction: 'scum',
+  unique: false,
+  ship: { name: 'QuadJumper', icon: 'quadjumper' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 15,
+  actions: [],
+  slots: [ 'crew', 'bomb', 'tech', 'illicit' ],
+  image: ''
+}, {
+  id: 244,
+  name: 'C-ROC Cruiser',
+  faction: 'scum',
+  unique: false,
+  epic: true,
+  ship: { name: 'C-ROC Cruiser', icon: 'croccruiser' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 35,
+  actions: [],
+  slots: [ 'crew', 'crew', 'hardpoint', 'team', 'cargo', 'cargo', 'cargo' ],
+  image: ''
+}, {
+  id: 245,
+  name: 'Genesis Red',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'M3-A Interceptor', icon: 'm3ainterceptor' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 246,
+  name: 'Quinn Jast',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'M3-A Interceptor', icon: 'm3ainterceptor' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 18,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 247,
+  name: 'Inaldra',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'M3-A Interceptor', icon: 'm3ainterceptor' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 15,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 248,
+  name: 'Sunny Bounder',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'M3-A Interceptor', icon: 'm3ainterceptor' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 14,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 253,
+  name: 'Captain Nym (Scum)',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Scurrg H-6 Bomber', icon: 'scurrgh6bomber' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['elite', 'turret', 'torpedo', 'missile', 'crew', 'bomb', 'bomb'],
+  image: ''
+}, {
+  id: 255,
+  name: 'So???',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Scurrg H-6 Bomber', icon: 'scurrgh6bomber' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['elite', 'turret', 'torpedo', 'missile', 'crew', 'bomb', 'bomb'],
+  image: ''
+}, {
+  id: 256,
+  name: 'Lok R???',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Scurrg H-6 Bomber', icon: 'scurrgh6bomber' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['elite', 'turret', 'torpedo', 'missile', 'crew', 'bomb', 'bomb'],
+  image: ''
+}, {
+  id: 257,
+  name: 'Karthakk Pirate',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Scurrg H-6 Bomber', icon: 'scurrgh6bomber' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 24,
+  actions: [],
+  slots: ['turret', 'torpedo', 'missile', 'crew', 'bomb', 'bomb'],
+  image: ''
+}, {
+  id: 262,
+  name: 'Viktor Hel',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Kihraxz Fighter', icon: 'kihraxzfighter' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: ['elite', 'missile', 'illicit'],
+  image: ''
+}, {
+  id: 263,
+  name: 'Captain ???',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'Kihraxz Fighter', icon: 'kihraxzfighter' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['missile', 'illicit'],
+  image: ''
+}, {
+  id: 264,
+  name: 'Dalan Oberos',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'StarViper', icon: 'starviper' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['torpedo'],
+  image: ''
+}, {
+  id: 265,
+  name: 'Th???',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'StarViper', icon: 'starviper' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['torpedo'],
+  image: ''
+}, {
+  id: 266,
+  name: 'Black ???',
+  faction: 'scum',
+  unique: true,
+  ship: { name: 'StarViper', icon: 'starviper' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 100,
+  actions: [],
+  slots: ['torpedo'],
+  image: ''
 }]
 
 export default scum_pilots

@@ -9,7 +9,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 12,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 11,
@@ -22,7 +22,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 13,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 12,
@@ -35,7 +35,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 14,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 13,
@@ -48,7 +48,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 15,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 14,
@@ -61,7 +61,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 15,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 15,
@@ -74,7 +74,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 16,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 16,
@@ -87,7 +87,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 16,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 17,
@@ -100,7 +100,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 17,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 18,
@@ -113,7 +113,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 18,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 19,
@@ -126,7 +126,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 20,
@@ -139,7 +139,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 21,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 21,
@@ -152,7 +152,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: ['missile'],
+ slots: ['missile'],
  image: ''
 }, {
  id: 22,
@@ -165,7 +165,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 29,
  actions: [],
- mods: ['elite', 'missile'],
+ slots: ['elite', 'missile'],
  image: ''
 }, {
  id: 23,
@@ -178,7 +178,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 18,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 24,
@@ -191,7 +191,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 20,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 25,
@@ -204,7 +204,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 21,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 26,
@@ -217,7 +217,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 27,
@@ -230,7 +230,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 25,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 28,
@@ -243,7 +243,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 37,
@@ -256,7 +256,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 38,
  actions: [],
- mods: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
+ slots: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
  id: 38,
@@ -269,7 +269,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 39,
  actions: [],
- mods: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
+ slots: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
  id: 39,
@@ -282,7 +282,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 36,
  actions: [],
- mods: ['cannon', 'bomb', 'crew', 'missile'],
+ slots: ['cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
  id: 40,
@@ -295,7 +295,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 33,
  actions: [],
- mods: ['cannon', 'bomb', 'crew', 'missile'],
+ slots: ['cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
  id: 49,
@@ -308,7 +308,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 16,
  actions: [],
- mods: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
+ slots: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
  id: 50,
@@ -321,7 +321,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 18,
  actions: [],
- mods: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
+ slots: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
  id: 51,
@@ -334,7 +334,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 22,
  actions: [],
- mods: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
+ slots: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
  id: 52,
@@ -347,7 +347,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 26,
  actions: [],
- mods: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
+ slots: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
  id: 53,
@@ -360,7 +360,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['system', 'cannon', 'crew', 'crew'],
+ slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
  id: 54,
@@ -373,7 +373,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 26,
  actions: [],
- mods: ['system', 'cannon', 'crew', 'crew'],
+ slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
  id: 55,
@@ -386,7 +386,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 24,
  actions: [],
- mods: ['system', 'cannon', 'crew', 'crew'],
+ slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
  id: 56,
@@ -399,7 +399,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 21,
  actions: [],
- mods: ['system', 'cannon', 'crew', 'crew'],
+ slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
  id: 57,
@@ -412,7 +412,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 23,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 58,
@@ -425,7 +425,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 22,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 59,
@@ -438,7 +438,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 24,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 61,
@@ -451,7 +451,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 24,
  actions: [],
- mods: [],
+ slots: [],
  image: ''
 }, {
  id: 62,
@@ -464,7 +464,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 26,
  actions: [],
- mods: ['elite'],
+ slots: ['elite'],
  image: ''
 }, {
  id: 68,
@@ -477,7 +477,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 30,
  actions: [],
- mods: ['cannon', 'missile'],
+ slots: ['cannon', 'missile'],
  image: ''
 }, {
  id: 69,
@@ -490,7 +490,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 32,
  actions: [],
- mods: ['cannon', 'missile'],
+ slots: ['cannon', 'missile'],
  image: ''
 }, {
  id: 70,
@@ -503,7 +503,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 35,
  actions: [],
- mods: ['elite', 'cannon', 'missile'],
+ slots: ['elite', 'cannon', 'missile'],
  image: ''
 }, {
  id: 71,
@@ -516,7 +516,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 37,
  actions: [],
- mods: ['elite', 'cannon', 'missile'],
+ slots: ['elite', 'cannon', 'missile'],
  image: ''
 }, {
  id: 76,
@@ -529,7 +529,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 25,
  actions: [],
- mods: ['system', 'crew'],
+ slots: ['system', 'crew'],
  image: ''
 }, {
  id: 77,
@@ -542,7 +542,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 27,
  actions: [],
- mods: ['system', 'crew'],
+ slots: ['system', 'crew'],
  image: ''
 }, {
  id: 78,
@@ -555,7 +555,7 @@ const imperial_pilots = [{
  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
  value: 30,
  actions: [],
- mods: ['elite', 'system', 'crew'],
+ slots: ['elite', 'system', 'crew'],
  image: ''
 }, {
   id: 79,
@@ -568,7 +568,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 32,
   actions: [],
-  mods: ['elite', 'system', 'crew'],
+  slots: ['elite', 'system', 'crew'],
   image: ''
 }, {
   id: 96,
@@ -581,7 +581,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 40,
   actions: [],
-  mods: ['torpedo', 'crew', 'crew', 'crew', 'bomb'],
+  slots: ['torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
   id: 97,
@@ -594,7 +594,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 42,
   actions: [],
-  mods: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
+  slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
   id: 98,
@@ -607,7 +607,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 44,
   actions: [],
-  mods: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
+  slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
   id: 99,
@@ -620,7 +620,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 46,
   actions: [],
-  mods: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
+  slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
   id: 128,
@@ -633,7 +633,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 25,
   actions: [],
-  mods: [ 'elite', 'missile' ],
+  slots: [ 'elite', 'missile' ],
   image: ''
 }, {
   id: 129,
@@ -647,7 +647,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 50,
   actions: [],
-  mods: [ 'hardpoint', 'team', 'cargo' ],
+  slots: [ 'hardpoint', 'team', 'cargo' ],
   image: ''
 }, {
   id: 130,
@@ -661,7 +661,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 50,
   actions: [],
-  mods: [ 'crew', 'crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo' ],
+  slots: [ 'crew', 'crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo' ],
   image: ''
 }, {
   id: 143,
@@ -674,7 +674,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 27,
   actions: [],
-  mods: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
+  slots: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
   image: ''
 }, {
   id: 144,
@@ -687,7 +687,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 26,
   actions: [],
-  mods: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
+  slots: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
   image: ''
 }, {
   id: 145,
@@ -700,7 +700,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
+  slots: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
   image: ''
 }, {
   id: 146,
@@ -713,7 +713,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 21,
   actions: [],
-  mods: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
+  slots: [ 'system', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb', 'bomb' ],
   image: ''
 }, {
   id: 147,
@@ -726,7 +726,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 28,
   actions: [],
-  mods: [ 'elite', 'missile' ],
+  slots: [ 'elite', 'missile' ],
   image: ''
 }, {
   id: 148,
@@ -739,7 +739,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 26,
   actions: [],
-  mods: [ 'elite', 'missile' ],
+  slots: [ 'elite', 'missile' ],
   image: ''
 }, {
   id: 149,
@@ -752,7 +752,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 23,
   actions: [],
-  mods: [ 'missile' ],
+  slots: [ 'missile' ],
   image: ''
 }, {
   id: 150,
@@ -766,7 +766,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 40,
   actions: [],
-  mods: [ 'crew', 'crew', 'hardpoint', 'team', 'cargo', 'cargo' ],
+  slots: [ 'crew', 'crew', 'hardpoint', 'team', 'cargo', 'cargo' ],
   image: ''
 }, {
   id: 151,
@@ -779,7 +779,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 17,
   actions: [],
-  mods: [ 'elite' ],
+  slots: [ 'elite' ],
   image: ''
 }, {
   id: 152,
@@ -792,7 +792,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 15,
   actions: [],
-  mods: [ 'elite' ],
+  slots: [ 'elite' ],
   image: ''
 }, {
   id: 153,
@@ -805,7 +805,7 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 14,
   actions: [],
-  mods: [],
+  slots: [],
   image: ''
 }, {
   id: 154,
@@ -818,7 +818,488 @@ const imperial_pilots = [{
   stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
   value: 14,
   actions: [],
-  mods: [],
+  slots: [],
+  image: ''
+}, {
+  id: 163,
+  name: 'The Inquisitor',
+  faction: 'empire',
+  ship: { name: 'TIE Advanced Prototype', icon: 'tieadvancedprototype' },
+  unique: true,
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: ['elite', 'missile'],
+  image: ''
+}, {
+  id: 164,
+  name: 'Valen Rudor',
+  faction: 'empire',
+  ship: { name: 'TIE Advanced Prototype', icon: 'tieadvancedprototype' },
+  unique: true,
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 22,
+  actions: [],
+  slots: ['elite', 'missile'],
+  image: ''
+}, {
+  id: 165,
+  name: 'Baron of the Epire',
+  faction: 'empire',
+  ship: { name: 'TIE Advanced Prototype', icon: 'tieadvancedprototype' },
+  unique: true,
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: ['elite', 'missile'],
+  image: ''
+}, {
+  id: 166,
+  name: 'Sienar Test Pilot',
+  faction: 'empire',
+  ship: { name: 'TIE Advanced Prototype', icon: 'tieadvancedprototype' },
+  unique: false,
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 16,
+  actions: [],
+  slots: ['missile'],
+  image: ''
+}, {
+  id: 179,
+  name: '"Omega Ace"',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: true,
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: ['elite', 'tech'],
+  image: ''
+}, {
+  id: 180,
+  name: '"Epsilon Leader"',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: true,
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: ['tech'],
+  image: ''
+}, {
+  id: 181,
+  name: '"Zeta Ace"',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: true,
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 18,
+  actions: [],
+  slots: ['elite', 'tech'],
+  image: ''
+}, {
+  id: 182,
+  name: 'Omega Squadron Pilot',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: false,
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: ['elite', 'tech'],
+  image: ''
+}, {
+  id: 183,
+  name: 'Zeta Squadron Pilot',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: false,
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 16,
+  actions: [],
+  slots: ['tech'],
+  image: ''
+}, {
+  id: 184,
+  name: 'Epsilon Squadron Pilot',
+  faction: 'empire',
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  unique: false,
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 15,
+  actions: [],
+  slots: ['tech'],
+  image: ''
+}, {
+  id: 187,
+  name: '"Omega Leader"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 21,
+  actions: [],
+  slots: [ 'elite', 'tech' ],
+  image: ''
+}, {
+  id: 188,
+  name: '"Zeta Leader"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: [ 'elite', 'tech' ],
+  image: ''
+}, {
+  id: 189,
+  name: '"Epsilon Ace"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE/fo Fighter', icon: 'tiefofighter' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: [ 'tech' ],
+  image: ''
+}, {
+  id: 190,
+  name: 'Tomax Bren',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 24,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb' ],
+  image: ''
+}, {
+  id: 191,
+  name: 'Gamma Squadron Veteran',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: [ 'elite', 'torpedo', 'torpedo', 'missile', 'missile', 'bomb' ],
+  image: ''
+}, {
+  id: 192,
+  name: '"Deathfire"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: [ 'torpedo', 'torpedo', 'missile', 'missile', 'bomb' ],
+  image: ''
+}, {
+  id: 193,
+  name: 'Maarek Stele (TIE Defender)',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Defender', icon: 'tiedefender' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 35,
+  actions: [],
+  slots: [ 'elite', 'cannon', 'missile' ],
+  image: ''
+}, {
+  id: 194,
+  name: 'Glaive Squadron Pilot',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Defender', icon: 'tiedefender' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 34,
+  actions: [],
+  slots: [ 'elite', 'cannon', 'missile' ],
+  image: ''
+}, {
+  id: 195,
+  name: 'Countess Ryad',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Defender', icon: 'tiedefender' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 34,
+  actions: [],
+  slots: [ 'elite', 'cannon', 'missile' ],
+  image: ''
+}, {
+  id: 208,
+  name: '"Quickdraw"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE/sf Fighter', icon: 'tiesffighter' },
+  text: '',
+  skill: 9,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 29,
+  actions: [],
+  slots: [ 'elite', 'system', 'missile', 'tech' ],
+  image: ''
+}, {
+  id: 209,
+  name: '"Backdraft"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE/sf Fighter', icon: 'tiesffighter' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 27,
+  actions: [],
+  slots: [ 'elite', 'system', 'missile', 'tech' ],
+  image: ''
+}, {
+  id: 210,
+  name: 'Omega Specialist',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE/sf Fighter', icon: 'tiesffighter' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 25,
+  actions: [],
+  slots: [ 'elite', 'system', 'missile', 'tech' ],
+  image: ''
+}, {
+  id: 211,
+  name: 'Zeta Specialist',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE/sf Fighter', icon: 'tiesffighter' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 23,
+  actions: [],
+  slots: [ 'system', 'missile', 'tech' ],
+  image: ''
+}, {
+  id: 226,
+  name: 'Kylo Ren',
+  faction: 'firstorder',
+  unique: true,
+  ship: { name: 'Upsilon-class Shuttle', icon: 'upsilonclassshuttle' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 34,
+  actions: [],
+  slots: [ 'elite', 'system', 'crew', 'crew', 'tech', 'tech' ],
+  image: ''
+}, {
+  id: 227,
+  name: 'Major Stridan',
+  faction: 'firstorder',
+  unique: true,
+  ship: { name: 'Upsilon-class Shuttle', icon: 'upsilonclassshuttle' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 32,
+  actions: [],
+  slots: [ 'system', 'crew', 'crew', 'tech', 'tech' ],
+  image: ''
+}, {
+  id: 228,
+  name: 'Lieutenant Dormitz',
+  faction: 'firstorder',
+  unique: true,
+  ship: { name: 'Upsilon-class Shuttle', icon: 'upsilonclassshuttle' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 31,
+  actions: [],
+  slots: [ 'system', 'crew', 'crew', 'tech', 'tech' ],
+  image: ''
+}, {
+  id: 229,
+  name: 'Starkiller Base Pilot',
+  faction: 'firstorder',
+  unique: false,
+  ship: { name: 'Upsilon-class Shuttle', icon: 'upsilonclassshuttle' },
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 30,
+  actions: [],
+  slots: [ 'system', 'crew', 'crew', 'tech', 'tech' ],
+  image: ''
+}, {
+  id: 238,
+  name: '"Duchess"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 8,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 23,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 239,
+  name: '"Pure Sabacc"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 6,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 22,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 240,
+  name: '"Countdown"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 241,
+  name: 'Black Squadron Scout',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 20,
+  actions: [],
+  slots: [ 'elite' ],
+  image: ''
+}, {
+  id: 242,
+  name: 'Scarif Defender',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 3,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 18,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 243,
+  name: 'Imperial Trainee',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Striker', icon: 'tiestriker' },
+  text: '',
+  skill: 1,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: [],
+  image: ''
+}, {
+  id: 258,
+  name: 'Sienar Specialist',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Aggressor', icon: 'tieaggressor' },
+  text: '',
+  skill: 2,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 17,
+  actions: [],
+  slots: ['turret', 'missile', 'missile'],
+  image: ''
+}, {
+  id: 259,
+  name: 'Onyx Squadron Escort',
+  faction: 'empire',
+  unique: false,
+  ship: { name: 'TIE Aggressor', icon: 'tieaggressor' },
+  text: '',
+  skill: 5,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: ['turret', 'missile', 'missile'],
+  image: ''
+}, {
+  id: 260,
+  name: '"Double Edge"',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Aggressor', icon: 'tieaggressor' },
+  text: '',
+  skill: 4,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 19,
+  actions: [],
+  slots: ['elite', 'turret', 'missile', 'missile'],
+  image: ''
+}, {
+  id: 261,
+  name: 'Lieutenant Kestal',
+  faction: 'empire',
+  unique: true,
+  ship: { name: 'TIE Aggressor', icon: 'tieaggressor' },
+  text: '',
+  skill: 7,
+  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  value: 22,
+  actions: [],
+  slots: ['elite', 'turret', 'missile', 'missile'],
   image: ''
 }]
 

@@ -143,30 +143,30 @@
 }
 .pilot-card .detail .text-actions .actions .action {}
 
-.pilot-card .mods {
+.pilot-card .slots {
   order: 4;
   flex-basis: 11%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.pilot-card .mods .ship {
+.pilot-card .slots .ship {
   order: 1;
   flex-basis: 17%;
   text-align: center;
   font-size: 1.7rem;
 }
-.pilot-card .mods .tray {
+.pilot-card .slots .tray {
   order: 2;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-basis: 55%;
 }
-.pilot-card .mods .tray .icon {
+.pilot-card .slots .tray .icon {
   padding: 0 2px 0 2px;
 }
-.pilot-card .mods .value {
+.pilot-card .slots .value {
   order: 3;
   flex-basis: 28%;
   text-align: center;

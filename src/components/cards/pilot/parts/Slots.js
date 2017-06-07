@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Mods = ({mods, ship, value}) => (
-  <div className="mods">
+const Slots = ({slots, ship, value}) => (
+  <div className="slots">
     <div className="ship">
       <i className={`xwing-miniatures-ship xwing-miniatures-ship-${ship.icon}`}></i>
     </div>
 
     <div className="tray">
-      {mods.map((mod, i) => (
+      {slots.map((mod, i) => (
         <div className="icon" key={i}>
           <i className={`xwing-miniatures-font xwing-miniatures-font-${mod}`}></i>
         </div>
@@ -18,4 +18,4 @@ const Mods = ({mods, ship, value}) => (
   </div>
 )
 
-export default Mods
+export default Slots
