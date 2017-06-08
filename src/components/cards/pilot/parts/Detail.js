@@ -20,7 +20,11 @@ const StatBox = ({stat, value}) => (
 const Detail = ({text, actions, stats}) => (
   <div className="detail">
     <div className="stats">
-      <StatBox stat="attack" value={stats.attack} />
+      {(stats.energy === undefined) ?
+        <StatBox stat="attack" value={stats.attack} /> :
+        <StatBox stat="energy" value={stats.energy} />
+      }
+
       <StatBox stat="agility" value={stats.agility} />
       <StatBox stat="hull" value={stats.hull} />
       <StatBox stat="shield" value={stats.shield} />

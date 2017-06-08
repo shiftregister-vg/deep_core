@@ -303,11 +303,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
- text: '',
+ text: 'The onboard targeting computer is extremely precise, allowing a TIE bomber to pinpoint its target while avoiding collateral damage to the surrounding area.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 6, shield: 0 },
  value: 16,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
@@ -316,11 +316,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
- text: '',
+ text: 'While not as agile or as fast as other TIE variants, TIE bombers can carry enough firepower to destroy virtually any enemy target.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 6, shield: 0 },
  value: 18,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
@@ -329,11 +329,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
- text: '',
+ text: 'When another friendly ship at Range 1 attacks with a secondary weapon, it may reroll up to 2 attack dice.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 6, shield: 0 },
  value: 22,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
@@ -342,11 +342,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Bomber', icon: 'tiebomber' },
- text: '',
+ text: 'When attacking with a secondary weapon, you may increase or decrease the weapon range by 1 to a limit of Range 1-3.',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 6, shield: 0 },
  value: 26,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'torpedo','torpedo', 'missile', 'missile', 'bomb'],
  image: ''
 }, {
@@ -355,11 +355,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Lambda-Class Shuttle', icon: 'lambdaclassshuttle' },
- text: '',
+ text: 'When an enemy ship acquires a target lock, it must lock onto your ship if possible.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 5, shield: 5 },
  value: 27,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
@@ -368,11 +368,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Lambda-Class Shuttle', icon: 'lambdaclassshuttle' },
- text: '',
+ text: 'At the start of the Combat phase, you may assign 1 of your blue target lock tokens to a friendly ship at Range 1 if it does not have a blue target lock token.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 5, shield: 5 },
  value: 26,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
@@ -381,11 +381,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Lambda-Class Shuttle', icon: 'lambdaclassshuttle' },
- text: '',
+ text: 'When another friendly ship at Range 1-2 would receive a stress token, if you have 2 or fewer stress tokens, you may receive that token instead.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 5, shield: 5 },
  value: 24,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
@@ -394,11 +394,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'Lambda-Class Shuttle', icon: 'lambdaclassshuttle' },
- text: '',
+ text: 'Noted for its tri-wing design, the Lambda-class shuttle served a critical role as a light utility craft in the Imperial Navy.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 5, shield: 5 },
  value: 21,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['system', 'cannon', 'crew', 'crew'],
  image: ''
 }, {
@@ -407,11 +407,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'When performing a barrel roll action, you may receive 1 stress token to use the [__bankleft__ 1] or [__bankright__ 1] template instead of the [__straight__ 1] template.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 23,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -420,11 +420,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'Only members of the Emperor\'s royal guard are permitted to fly these crimson red fighters, which were often used to escort the Emperor\'s shuttle as well as its decoys.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 22,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -433,11 +433,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'When you reveal a __kturn__ maneuver, you may treat the speed of that maneuver as "1," "3," or "5."',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 24,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -446,11 +446,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'When attacking at Range 2-3, you may spend 1 evade token to add 1 __hit__ result to your roll.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 24,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -459,11 +459,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'Enemy ships at Range 1 cannot perform focus or evade actions and cannot spend focus or evade tokens.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 26,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -472,11 +472,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Defender', icon: 'tiedefender' },
- text: '',
+ text: 'In addition to its four laser cannons and warhead launchers, the TIE defender came equipped with ion cannons in its upper wing.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 3 },
  value: 30,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['cannon', 'missile'],
  image: ''
 }, {
@@ -485,11 +485,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Defender', icon: 'tiedefender' },
- text: '',
+ text: 'The TIE defender outclassed all other starfighters of its time, though its size and array of weapons greatly increased its weight and cost credits.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 3 },
  value: 32,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['cannon', 'missile'],
  image: ''
 }, {
@@ -498,11 +498,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Defender', icon: 'tiedefender' },
- text: '',
+ text: 'When attacking, immediately after you roll attack dice, you may acquire a target lock on the defender if it already has a red target lock token.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 3 },
  value: 35,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'cannon', 'missile'],
  image: ''
 }, {
@@ -511,11 +511,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Defender', icon: 'tiedefender' },
- text: '',
+ text: 'After you perform an attack that deals at least 1 Damage card to the defender, you may spend a focus token to flip those cards faceup.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 3 },
  value: 37,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'cannon', 'missile'],
  image: ''
 }, {

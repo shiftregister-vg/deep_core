@@ -290,11 +290,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'HWK-290', icon: 'hwk290' },
- text: '',
+ text: 'Designed after a bird in flight by Corellian Engineering Corporation, the "hawk" series excelled in its role as a personel transport.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 1, agility: 2, hull: 4, shield: 1 },
  value: 16,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['turret', 'crew'],
  image: ''
 }, {
@@ -303,11 +303,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'HWK-290', icon: 'hwk290' },
- text: '',
+ text: 'At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship\'s pilot skill value as "12." ',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 1, agility: 2, hull: 4, shield: 1 },
  value: 19,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['turret', 'crew'],
  image: ''
 }, {
@@ -316,11 +316,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'HWK-290', icon: 'hwk290' },
- text: '',
+ text: 'At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 1, agility: 2, hull: 4, shield: 1 },
  value: 21,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'turret', 'crew'],
  image: ''
 }, {
@@ -329,11 +329,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'HWK-290', icon: 'hwk290' },
- text: '',
+ text: 'When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 1, agility: 2, hull: 4, shield: 1 },
  value: 25,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'turret', 'crew'],
  image: ''
 }, {
@@ -343,11 +343,11 @@ const rebel_pilots = [{
  unique: false,
  epic: true,
  ship: { name: 'GR-75 Medium Transport', icon: 'gr75mediumtransport' },
- text: '',
+ text: 'The GR-75 played an integral role in the evacuation of Hoth, transporting the bulk of the Alliance\'s supplies and personnel to the rendezvous point.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { energy: 4, attack: 0, agility: 0, hull: 8, shield: 4 },
  value: 30,
- actions: [],
+ actions: ['recover', 'reinforce', 'coordinate', 'jam'],
  slots: ['crew', 'crew', 'cargo', 'cargo', 'cargo'],
  image: ''
 }, {
@@ -356,11 +356,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'Z95 Headhunter', icon: 'z95headhunter' },
- text: '',
+ text: 'The AF4 series was the latest in a long line of Headhunter designs. Cheap and durable, it became a favorite among independent outfits like the Rebellion and Black Sun.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 2, shield: 2 },
  value: 12,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['missile'],
  image: ''
 }, {
@@ -369,11 +369,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'Z95 Headhunter', icon: 'z95headhunter' },
- text: '',
+ text: 'Manufactured by Incom Corporation, the Z-95-AF4 was the primary inspiration for the design of the T-65 X-wing.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 2, shield: 2 },
  value: 13,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['missile'],
  image: ''
 }, {
@@ -382,11 +382,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'Z95 Headhunter', icon: 'z95headhunter' },
- text: '',
+ text: 'When attacking, the defender is hit by your attack, even if he does not suffer any damage.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 2, shield: 2 },
  value: 17,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -395,11 +395,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'Z95 Headhunter', icon: 'z95headhunter' },
- text: '',
+ text: 'After you perform an attack, you may choose another friendly ship at Range 1. That ship may perform 1 free action.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 2, hull: 2, shield: 2 },
  value: 19,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -408,11 +408,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'E-wing', icon: 'ewing' },
- text: '',
+ text: 'Specifically designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasted superior firepower, speed, and maneuverability.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 2, shield: 3 },
  value: 27,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['system', 'torpedo', 'astromech'],
  image: ''
 }, {
@@ -421,11 +421,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'E-wing', icon: 'ewing' },
- text: '',
+ text: 'Originally designed with only the R7-series of astromech in mind, the E-wing was later retrofitted to equip the standard R2- and R5-series driods.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 2, shield: 3 },
  value: 29,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['system', 'torpedo', 'astromech'],
  image: ''
 }, {
@@ -434,11 +434,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'E-wing', icon: 'ewing' },
- text: '',
+ text: 'When an enemy ship inside your firing arc at Range 1-3 is defending, the attacker may change 1 of its __hit__ results to a __crit__ result.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 2, shield: 3 },
  value: 32,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['elite', 'system', 'torpedo', 'astromech'],
  image: ''
 }, {
@@ -447,11 +447,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'E-wing', icon: 'ewing' },
- text: '',
+ text: 'At the start of the End phase, you may perform one attack. You cannot attack during the next round.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 2, shield: 3 },
  value: 35,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['elite', 'system', 'torpedo', 'astromech'],
  image: ''
 }, {
