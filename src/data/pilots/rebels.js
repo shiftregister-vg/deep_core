@@ -134,11 +134,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'A-wing', icon: 'awing' },
- text: '',
+ text: 'You may perform actions even while you have stress tokens.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 2, shield: 2 },
  value: 26,
- actions: [],
+ actions: ['focus', 'targetlock', 'boost', 'evade'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -147,11 +147,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'A-wing', icon: 'awing' },
- text: '',
+ text: 'You may declare an enemy ship inside your firing arc that you are touching as the target of your attack.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 2, shield: 2 },
  value: 23,
- actions: [],
+ actions: ['focus', 'targetlock', 'boost', 'evade'],
  slots: ['missile'],
  image: ''
 }, {
@@ -160,11 +160,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'A-wing', icon: 'awing' },
- text: '',
+ text: 'Conceived by General Dodonna, the RZ-1 A-wing interceptor proved its worth by crippling Star Destroyers during the Battle of Endor.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 2, shield: 2 },
  value: 19,
- actions: [],
+ actions: ['focus', 'targetlock', 'boost', 'evade'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -173,11 +173,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'A-wing', icon: 'awing' },
- text: '',
+ text: 'Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 2, shield: 2 },
  value: 17,
- actions: [],
+ actions: ['focus', 'targetlock', 'boost', 'evade'],
  slots: ['missile'],
  image: ''
 }, {
@@ -186,11 +186,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'YT-1300', icon: 'yt1300' },
- text: '',
+ text: 'Known for its durability and modular design, the YT-1300 is one of the most popular, midely used freighters in the galaxy.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 1, hull: 6, shield: 4 },
  value: 27,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['crew', 'crew'],
  image: ''
 }, {
@@ -199,11 +199,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'YT-1300', icon: 'yt1300' },
- text: '',
+ text: 'When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability).',
  skill: 5,
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 42,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'missle', 'crew', 'crew'],
  image: ''
 }, {
@@ -212,11 +212,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'YT-1300', icon: 'yt1300' },
- text: '',
+ text: 'After you execute a green maneuver, choose 1 other friendly ship at Range 1. That ship may perform 1 free action shown in its action bar.',
  skill: 7,
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 44,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'missile', 'crew', 'crew'],
  image: ''
 }, {
@@ -225,11 +225,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'YT-1300', icon: 'yt1300' },
- text: '',
+ text: 'When attacking, you may reroll all of your dice. If you choose to do so, you must reroll as many of your dice as possible.',
  skill: 9,
  stats: { attack: 3, agility: 1, hull: 8, shield: 5 },
  value: 46,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'missile', 'crew', 'crew'],
  image: ''
 }, {
@@ -238,11 +238,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'B-wing', icon: 'bwing' },
- text: '',
+ text: 'When attacking, 1 of your __crit__ results cannot be canceled by defense dice.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 3, shield: 5 },
  value: 31,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
@@ -251,11 +251,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'B-wing', icon: 'bwing' },
- text: '',
+ text: 'When attacking or defending, if you have at least 1 stress token, you may reroll 1 of your dice.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 3, shield: 5 },
  value: 28,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['elite', 'system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
@@ -264,11 +264,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'B-wing', icon: 'bwing' },
- text: '',
+ text: 'A unique gyrostabilization system surrounds the B-wing\'s cockpit, ensuring that the pilot always remains stationary during flight.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 3, shield: 5 },
  value: 24,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {
@@ -277,11 +277,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: false,
  ship: { name: 'B-wing', icon: 'bwing' },
- text: '',
+ text: 'Because of its heavy weapons array and resilient shielding, the B-wing solidified itself as the Alliance\'s most formidable assault fighter.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 1, hull: 3, shield: 5 },
  value: 22,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll'],
  slots: ['system', 'cannon', 'torpedo', 'torpedo'],
  image: ''
 }, {

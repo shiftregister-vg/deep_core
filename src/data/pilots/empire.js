@@ -251,11 +251,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Firespray-31', icon: 'firespray31' },
- text: '',
+ text: 'When attacking, the defender receives 1 stress token if he cancels at least one __crit__ result.',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 2, hull: 6, shield: 4 },
  value: 38,
- actions: [],
+ actions: ['focus', 'targetlock', 'evade'],
  slots: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
@@ -264,11 +264,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Firespray-31', icon: 'firespray31' },
- text: '',
+ text: 'When you reveal a bank maneuver (__bankleft__ or __bankright__), you may rotate your dial to the other bank maneuver of the same speed.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 2, hull: 6, shield: 4 },
  value: 39,
- actions: [],
+ actions: ['focus', 'targetlock', 'evade'],
  slots: ['elite', 'cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
@@ -277,11 +277,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'Firespray-31', icon: 'firespray31' },
- text: '',
+ text: 'When attacking with a secodary weapon, you may reroll 1 attack die.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 2, hull: 6, shield: 4 },
  value: 36,
- actions: [],
+ actions: ['focus', 'targetlock', 'evade'],
  slots: ['cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
@@ -290,11 +290,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'Firespray-31', icon: 'firespray31' },
- text: '',
+ text: 'Originally intended as a prisoner transport, the Firespray patrol craft features a versatile weapons array and heavy armor plating.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 2, hull: 6, shield: 4 },
  value: 33,
- actions: [],
+ actions: ['focus', 'targetlock', 'evade'],
  slots: ['cannon', 'bomb', 'crew', 'missile'],
  image: ''
 }, {
