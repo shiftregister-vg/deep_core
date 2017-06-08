@@ -4,11 +4,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'Developed by Seiner Fleet System, the Empire used the fast and agile TIE/ln as its primary starfighter throughout most of the Galactic Civil War.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 12,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -17,11 +17,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'The TIE fighter\'s Twin Ion Engine system was designed for speed, making the TIE one of the most maneuverable starships ever produced.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 13,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -30,11 +30,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'The TIE fighter has no shields or life support systems, forcing TIE pilots to depend solely on their skills to survive.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 14,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -43,11 +43,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'When attacking at Range 1, you may change 1 of your __hit__ results to a __crit__ result.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 15,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -56,11 +56,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'After executing a green maneuver, you may perform a free focus action.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 15,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -69,11 +69,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'When attacking from outside the defender\'s firing arc, roll 1 additional attack die.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 16,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -82,11 +82,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'When defending, ships attacking you cannot spend focus tokens or reroll attack dice.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 16,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -95,11 +95,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'When attacking at Range 1, roll 1 additional attack die.',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 17,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -108,11 +108,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Fighter', icon: 'tiefighter' },
- text: '',
+ text: 'When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 0 },
  value: 18,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -121,11 +121,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Advanced', icon: 'tieadvanced' },
- text: '',
+ text: 'When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal, and discard the others.',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 2 },
  value: 27,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -134,11 +134,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Advanced', icon: 'tieadvanced' },
- text: '',
+ text: 'The TIE Advanced was produced in limited quantities, but later Seiner engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.',
  skill: 2,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 2 },
  value: 21,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['missile'],
  image: ''
 }, {
@@ -147,11 +147,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Advanced', icon: 'tieadvanced' },
- text: '',
+ text: 'The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 2 },
  value: 23,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['missile'],
  image: ''
 }, {
@@ -160,11 +160,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Advanced', icon: 'tieadvanced' },
- text: '',
+ text: 'During your "Perform Action" step, you may perform 2 actions.',
  skill: 9,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 2, agility: 3, hull: 3, shield: 2 },
  value: 29,
- actions: [],
+ actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['elite', 'missile'],
  image: ''
 }, {
@@ -173,11 +173,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'Seiner Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, easily allowing it to outgun its predecessors.',
  skill: 1,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 18,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -186,11 +186,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'The finest mass-produced starfighter of its time, the TIE interceptor excels at dogfighting thanks to its heightened maneuverability and speed.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 20,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -199,11 +199,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire\'s best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 21,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -212,11 +212,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'When the number of Damage cards assigned to you equals or exceeds your hull value, you are not destroyed until the end of the Combat phase.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 23,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: [],
  image: ''
 }, {
@@ -225,11 +225,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'After you perform an attack, you may perform a free boost or barrel roll action.',
  skill: 7,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 25,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -238,11 +238,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Interceptor', icon: 'tieinterceptor' },
- text: '',
+ text: 'When you receive a stress token, you may assign 1 focus token to your ship.',
  skill: 9,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 3, hull: 3, shield: 0 },
  value: 27,
- actions: [],
+ actions: ['focus', 'barrelroll', 'boost', 'evade'],
  slots: ['elite'],
  image: ''
 }, {
@@ -861,7 +861,7 @@ const imperial_pilots = [{
   image: ''
 }, {
   id: 166,
-  name: 'Sienar Test Pilot',
+  name: 'Seiner Test Pilot',
   faction: 'empire',
   ship: { name: 'TIE Advanced Prototype', icon: 'tieadvancedprototype' },
   unique: false,
@@ -1251,7 +1251,7 @@ const imperial_pilots = [{
   image: ''
 }, {
   id: 258,
-  name: 'Sienar Specialist',
+  name: 'Seiner Specialist',
   faction: 'empire',
   unique: false,
   ship: { name: 'TIE Aggressor', icon: 'tieaggressor' },
