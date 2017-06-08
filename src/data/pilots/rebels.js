@@ -69,11 +69,11 @@ const rebel_pilots = [{
  faction: 'rebel',
  unique: true,
  ship: { name: 'X-wing', icon: 'xwing' },
- text: '',
+ text: 'When defending, you may change 1 of your __focus__ results to a __evade__ result.',
  skill: 8,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 3, agility: 2, hull: 3, shield: 2 },
  value: 28,
- actions: [],
+ actions: ['focus', 'targetlock'],
  slots: ['elite', 'torpedo', 'astromech'],
  image: ''
 }, {
