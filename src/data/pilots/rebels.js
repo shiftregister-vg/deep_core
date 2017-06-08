@@ -461,11 +461,11 @@ const rebel_pilots = [{
  unique: false,
  epic: true,
  ship: { name: 'CR90 Corvette (Fore)', icon: 'cr90corvette' },
- text: '',
+ text: 'When attacking with your primary weapon, you may spend 1 energy to roll 1 additional attack die.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 4, agility: 0, hull: 8, shield: 5 },
  value: 50,
- actions: [],
+ actions: ['coordinate', 'targetlock'],
  slots: ['crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo'],
  image: ''
 }, {
@@ -475,11 +475,11 @@ const rebel_pilots = [{
  unique: false,
  epic: true,
  ship: { name: 'CR90 Corvette (Aft)', icon: 'cr90corvette' },
- text: '',
+ text: 'Equipped with 11 Girodyne Ter58 high-output ion-turbine engines and a hardy hull, the Rebel Alliance prized the CR90 for its sublight speed and durability.',
  skill: 4,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { energy: 5, attack: 0, agility: 0, hull: 8, shield: 3 },
  value: 40,
- actions: [],
+ actions: ['recover', 'reinforce'],
  slots: ['crew', 'hardpoint', 'team', 'cargo'],
  image: ''
 }, {
@@ -488,11 +488,11 @@ const rebel_pilots = [{
   faction: 'rebel',
   unique: true,
   ship: { name: 'X-wing', icon: 'xwing' },
-  text: '',
+  text: 'After you perform an attack, you may remove 1 focus, evade, or blue target lock token from the defender.',
   skill: 8,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 2, hull: 3, shield: 2 },
   value: 29,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: [ 'elite', 'torpedo', 'astromech' ],
   image: ''
 }, {
@@ -501,11 +501,11 @@ const rebel_pilots = [{
   faction: 'rebel',
   unique: true,
   ship: { name: 'X-wing', icon: 'xwing' },
-  text: '',
+  text: ' When you receive a stress token, you may remove it and roll 1 attack die. On a __hit__ result, deal 1 facedown Damage card to this ship.',
   skill: 7,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 2, hull: 3, shield: 2 },
   value: 26,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: [ 'elite', 'torpedo', 'astromech' ],
   image: ''
 }, {

@@ -524,11 +524,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Phantom', icon: 'tiephantom' },
- text: '',
+ text: 'The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom added a small fighter with cloaking capabilities to the Imperial fleet.',
  skill: 3,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 4, agility: 2, hull: 2, shield: 2 },
  value: 25,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade', 'cloak'],
  slots: ['system', 'crew'],
  image: ''
 }, {
@@ -537,11 +537,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: false,
  ship: { name: 'TIE Phantom', icon: 'tiephantom' },
- text: '',
+ text: 'Featuring a hyperdrive and shields, the TIE phantom also came equipped with five laser cannons, giving it unprecedented firepower for such a small Imperial fighter.',
  skill: 5,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 4, agility: 2, hull: 2, shield: 2 },
  value: 27,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade', 'cloak'],
  slots: ['system', 'crew'],
  image: ''
 }, {
@@ -550,11 +550,11 @@ const imperial_pilots = [{
  faction: 'empire',
  unique: true,
  ship: { name: 'TIE Phantom', icon: 'tiephantom' },
- text: '',
+ text: 'When you decloak, you must use the [__bankleft__ 2] or [__bankright__ 2] template instead of the [__straight__ 2] template.',
  skill: 6,
- stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+ stats: { attack: 4, agility: 2, hull: 2, shield: 2 },
  value: 30,
- actions: [],
+ actions: ['focus', 'barrelroll', 'evade', 'cloak'],
  slots: ['elite', 'system', 'crew'],
  image: ''
 }, {
@@ -563,11 +563,11 @@ const imperial_pilots = [{
   faction: 'empire',
   unique: true,
   ship: { name: 'TIE Phantom', icon: 'tiephantom' },
-  text: '',
+  text: 'After you perform an attack that hits, you may assign 1 focus token to your ship.',
   skill: 7,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 4, agility: 2, hull: 2, shield: 2 },
   value: 32,
-  actions: [],
+  actions: ['focus', 'barrelroll', 'evade', 'cloak'],
   slots: ['elite', 'system', 'crew'],
   image: ''
 }, {
