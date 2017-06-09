@@ -576,11 +576,11 @@ const imperial_pilots = [{
   faction: 'empire',
   unique: false,
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
-  text: '',
+  text: 'To be granted command of a VT-49 Decimator was seen as a significant promotion for a middling officer of the Imperial Navy.',
   skill: 3,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 40,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: ['torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
@@ -589,11 +589,11 @@ const imperial_pilots = [{
   faction: 'empire',
   unique: true,
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
-  text: '',
+  text: 'After executing a maneuver, each enemy ship you are touching suffers 1 damage.',
   skill: 4,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 42,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
@@ -604,9 +604,9 @@ const imperial_pilots = [{
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
   text: '',
   skill: 6,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 44,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
@@ -617,9 +617,9 @@ const imperial_pilots = [{
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
   text: '',
   skill: 8,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 46,
-  actions: [],
+  actions: ['focus', 'targetlock'],
   slots: ['elite', 'torpedo', 'crew', 'crew', 'crew', 'bomb'],
   image: ''
 }, {
