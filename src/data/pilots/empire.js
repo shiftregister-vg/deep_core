@@ -166,7 +166,7 @@ const imperial_pilots = [{
  value: 29,
  actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
  slots: ['elite', 'missile'],
- image: ''
+ image: 'tie-advanced-darth-vader.jpg'
 }, {
  id: 23,
  name: 'Alpha Squadron Pilot',
@@ -602,7 +602,7 @@ const imperial_pilots = [{
   faction: 'empire',
   unique: true,
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
-  text: '',
+  text: 'If you have no shields and at least 1 Damage card assigned to you, increase your agility value by 1.',
   skill: 6,
   stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 44,
@@ -615,7 +615,7 @@ const imperial_pilots = [{
   faction: 'empire',
   unique: true,
   ship: { name: 'VT-49 Decimator', icon: 'vt49decimator' },
-  text: '',
+  text: 'When attacking at Range 1-2, you may change 1 of your __focus__ results to a __crit__ result.',
   skill: 8,
   stats: { attack: 3, agility: 0, hull: 12, shield: 4 },
   value: 46,
@@ -628,11 +628,11 @@ const imperial_pilots = [{
   faction: 'empire',
   ship: { name: 'TIE Advanced', icon: 'tieadvanced' },
   unique: true,
-  text: '',
+  text: 'At the start of the Combat phase, you may acquire a target lock on an enemy ship at Range 1.',
   skill: 5,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 2, agility: 3, hull: 3, shield: 2 },
   value: 25,
-  actions: [],
+  actions: ['focus', 'targetlock', 'barrelroll', 'evade'],
   slots: [ 'elite', 'missile' ],
   image: ''
 }, {
@@ -642,11 +642,11 @@ const imperial_pilots = [{
   ship: { name: 'Raider-class Corvette (Fore)', icon: 'raiderclasscorvette' },
   unique: true,
   epic: true,
-  text: '',
+  text: 'Once per round, after you perform a primary weapon attack, you may spend 2 energy to perform another primary weapon attack.',
   skill: 4,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { attack: 4, agility: 0, hull: 8, shield: 6 },
   value: 50,
-  actions: [],
+  actions: ['recover', 'reinforce'],
   slots: [ 'hardpoint', 'team', 'cargo' ],
   image: ''
 }, {
@@ -656,11 +656,11 @@ const imperial_pilots = [{
   ship: { name: 'Raider-class Corvette (Aft)', icon: 'raiderclasscorvette' },
   unique: true,
   epic: true,
-  text: '',
+  text: 'The demise of the Death Star proved to Imperial High Command the importance of anti-fighter craft which renewed interest in the Raider-class corvette.',
   skill: 4,
-  stats: { attack: 0, agility: 0, hull: 0, shield: 0 },
+  stats: { energy: 6, agility: 0, hull: 8, shield: 4 },
   value: 50,
-  actions: [],
+  actions: ['coordinate', 'targetlock'],
   slots: [ 'crew', 'crew', 'hardpoint', 'hardpoint', 'team', 'team', 'cargo' ],
   image: ''
 }, {

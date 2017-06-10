@@ -75,7 +75,7 @@ const rebel_pilots = [{
  value: 28,
  actions: ['focus', 'targetlock'],
  slots: ['elite', 'torpedo', 'astromech'],
- image: ''
+ image: 'xwing-luke-skywalker.jpg'
 }, {
  id: 6,
  name: 'Gray Squadron Pilot',

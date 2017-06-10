@@ -4,7 +4,6 @@ import { HashRouter as Router } from 'react-router-dom'
 import { createBrowserHistory } from 'history'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import './xwingfont/xwing-miniatures.css'
 import './index.css';
 
 const browserHistory = createBrowserHistory()

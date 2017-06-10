@@ -5,6 +5,7 @@ import {
   Header,
   Slots
 } from './parts'
+import '../../../xwingfont/xwing-miniatures.css'
 import './Pilot.css'
 
 class PilotCard extends Component {
