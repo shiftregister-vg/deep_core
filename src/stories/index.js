@@ -17,24 +17,34 @@ import {
 const style = {
   pilot: {
     marginBottom: 25
+  },
+  flex: {
+    display: 'flex',
+    flexFlow: 'row wrap',
+    justifyContent: 'space-between',
+    margin: '0 auto'
   }
 }
 
 const pilotCards = (faction, pilots) => (
   <div>
     <h2>{faction}</h2>
-    {pilots.map(pilot => (
-      <div style={style.pilot} key={pilot.id}>
-        <PilotCard pilot={pilot} />
-      </div>
-    ))}
+    <div style={style.flex}>
+      {pilots.map(pilot => (
+        <div style={style.pilot} key={pilot.id}>
+          <PilotCard pilot={pilot} />
+        </div>
+      ))}
+    </div>
   </div>
 )
 
 const upgradeCards = (type, upgrades) => (
   <div>
     <h2>{type}</h2>
-    {upgrades.map(upgrade => <div key={upgrade.id}></div>)}
+    <div style={style.flex}>
+      {upgrades.map(upgrade => <div key={upgrade.id}></div>)}
+    </div>
   </div>
 )
 
