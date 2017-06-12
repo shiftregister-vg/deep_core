@@ -1,4 +1,5 @@
 import React from 'react'
+import './Detail.css'
 
 const processTextForIcons = (text) => {
   const pattern = /__(\w+)__/g
