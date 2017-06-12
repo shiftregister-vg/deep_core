@@ -1,5 +1,13 @@
 import React from 'react'
 
+const processTextForIcons = (text) => {
+  const pattern = /__(\w+)__/g
+  return text.replace(
+    pattern,
+    '<i class="xwing-miniatures-font xwing-miniatures-font-$1"></i>'
+  )
+}
+
 const StatBox = ({stat, value}) => (
   <div className={`${stat} box`}>
     <div className="icon">
@@ -12,7 +20,11 @@ const StatBox = ({stat, value}) => (
 const Detail = ({text, actions, stats}) => (
   <div className="detail">
     <div className="stats">
-      <StatBox stat="attack" value={stats.attack} />
+      {(stats.energy === undefined) ?
+        <StatBox stat="attack" value={stats.attack} /> :
+        <StatBox stat="energy" value={stats.energy} />
+      }
+
       <StatBox stat="agility" value={stats.agility} />
       <StatBox stat="hull" value={stats.hull} />
       <StatBox stat="shield" value={stats.shield} />
@@ -20,7 +32,9 @@ const Detail = ({text, actions, stats}) => (
 
     <div className="text-actions">
       <div className="text">
-        <p>{text}</p>
+        <p dangerouslySetInnerHTML={{
+          __html: processTextForIcons(text)
+        }} />
       </div>
 
       <div className="actions">

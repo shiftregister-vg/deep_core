@@ -3,8 +3,9 @@ import {
   Art,
   Detail,
   Header,
-  Mods
+  Slots
 } from './parts'
+import '../../../xwingfont/xwing-miniatures.css'
 import './Pilot.css'
 
 class PilotCard extends Component {
@@ -29,8 +30,8 @@ class PilotCard extends Component {
           stats={pilot.stats}
           text={pilot.text} />
 
-        <Mods
-          mods={pilot.mods}
+        <Slots
+          slots={pilot.slots}
           ship={pilot.ship}
           value={pilot.value} />
       </div>

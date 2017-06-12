@@ -1,0 +1,10 @@
+.pilot-sheet {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.pilot-sheet a {
+  text-decoration: none;
+}
