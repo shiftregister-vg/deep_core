@@ -1,0 +1,44 @@
+.pilot-card header.epic {
+  order: 2;
+  flex-basis: 17%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+}
+
+.pilot-card header.epic .skill {
+  order: 1;
+  flex-basis: 19%;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pilot-card header.epic .name-ship {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 62%;
+  align-items: center;
+}
+
+.pilot-card header.epic .name-ship .ship {
+  order: 1;
+  font-size: 1.1rem;
+  text-align: center;
+  flex-basis: 85%;
+}
+
+.pilot-card header.epic .name-ship .icon {
+  order: 2;
+  font-size: 0.9rem;
+  flex-basis: 15%;
+}
+
+.pilot-card header.epic .faction {
+  order: 3;
+  flex-basis: 19%;
+  text-align: center;
+  font-size: 1.5rem;
+}

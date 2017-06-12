@@ -1,5 +1,6 @@
 import React from 'react'
 import DynamicFont from 'react-dynamic-font'
+import './Header.css'
 
 const Header = ({faction, name, ship, skill, unique}) => (
   <header>

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Art.css'
 
 const Art = ({image, faction}) => (
   <div className="art" style={{

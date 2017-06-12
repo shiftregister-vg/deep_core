@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {
   Art,
   Detail,
+  EpicHeader,
   Header,
   Slots
 } from './parts'
@@ -9,6 +10,26 @@ import '../../../xwingfont/xwing-miniatures.css'
 import './Pilot.css'
 
 class PilotCard extends Component {
+  getHeader = (pilot) => {
+    if (pilot.epic === true) {
+      return (
+        <EpicHeader
+          faction={pilot.faction}
+          name={pilot.name}
+          ship={pilot.ship}
+          skill={pilot.skill} />
+      )
+    }
+
+    return (
+      <Header
+        faction={pilot.faction}
+        name={pilot.name}
+        ship={pilot.ship}
+        skill={pilot.skill}
+        unique={pilot.unique} />
+    )
+  }
   render() {
     const { pilot } = this.props
 
@@ -18,12 +39,7 @@ class PilotCard extends Component {
           faction={pilot.faction}
           image={pilot.image} />
 
-        <Header
-          faction={pilot.faction}
-          name={pilot.name}
-          ship={pilot.ship}
-          skill={pilot.skill}
-          unique={pilot.unique} />
+        {this.getHeader(pilot)}
 
         <Detail
           actions={pilot.actions}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Slots.css'
 
 const Slots = ({slots, ship, value}) => (
   <div className="slots">
