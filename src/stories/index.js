@@ -48,11 +48,24 @@ const upgradeCards = (type, upgrades) => (
   </div>
 )
 
-storiesOf('Pilot Cards', module)
+const pilotStories = storiesOf('Pilot Cards', module)
   .add('for the Rebellion', () => pilotCards('The Rebellion', rebel_pilots))
   .add('for the Galactic Empire', () => pilotCards('The Galactic Empire', imperial_pilots))
   .add('for Scum and Villainy', () => pilotCards('Scum and Villainy', scum_pilots))
   .add('for Epic Ships', () => pilotCards('Epic Ships', findInDataBy(pilots, 'epic', true)))
+
+const shipNames = [...new Set(
+  pilots.filter(pilot => !(pilot.epic === true)).map(pilot => pilot.ship.name)
+)]
+shipNames.sort((a, b) => {
+  if (a < b) return -1
+  if (a > b) return 1
+  return 0
+}).map( shipName => {
+  pilotStories.add(`for ${shipName}`, () => pilotCards(
+    shipName, findInDataBy(pilots, 'ship.name', shipName)
+  ))
+})
 
 storiesOf('Upgrade Cards', module)
   .add('Astromechs', () => upgradeCards('Astromechs', []))
