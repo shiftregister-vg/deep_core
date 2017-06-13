@@ -4,7 +4,7 @@
 
 ## About
 
-This started as a pet project in order for me to learn more about the available pilots, ships, upgrades, etc for X-Wings TMG. If other people end up finding it useful too then that's great! :smiley:
+This started as a pet project in order for me to learn more about the available pilots, ships, upgrades, etc for [X-wing Miniatures](https://www.fantasyflightgames.com/en/products/x-wing/). If other people end up finding it useful too then that's great! :smiley:
 
 ## Goals
 
