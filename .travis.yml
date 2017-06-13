@@ -11,6 +11,7 @@ deploy:
   on:
     tags: true
   provider: pages
+  local_dir: build
   skip_cleanup: true
   github_token:
     secure: F2a3ssEccv4mUoNmkA0owUcGbWbIe+kHFXtxN6QszcamD4yESA+/Rvn4K4UgR5EITWwCVtZn4eB1hzQ+Hbfv1WPO9ey3EhDnWXB5NprScV99hJQdacHZCQ+0983cay8aJ1Abhbtlx5MVzqBRN9WtTs/fbg2DWDxbHkkmZiJXOQY7N8wZI9JQDZ7RBZ3e+YtO89pGRKqO7QkDHJ03pNJ02BMrektFwKhH/K5oEBMVv+Pc1A4FT5VdhbraaR2ajMq3c2xBS57HQu/+3QIKrvMz9vu8Lm/F+mobyWMYU1YWpP2f1V/FojB80ggpzQaBfMonV+iE1KH9VcdcmpiF/hipfvEuTQQdC2MQGDrWe0buBQ1hzr/+8S8FMnEH2V+2qq7AMI4d/STNkgF/u4ZBASQECMS5xqU5ue/zk9xwEWyeUyFCyY2gk85wJHxKdyKrXG8/Vezx2YjzDblUnX20P26d30V/eUPeF/b+mkoumYc0GCToa9YEv7IAP9jKAg9i8CXhQC1ptt5wgjIzKZjAwUspIa7V49K+4yuzS8AwuReKdV+KGsrWmSQsoJclkTX7BzOyMqaODTVe4OUnQAAk6VOfUUhQeiYcbQysdEe4eJqWacCsHMzMZPDQg3d4fxDFdlwWQyC2GnPsspAen3IdFfb2UHfd5IVl6BF8VhcB2sspFEQ=
