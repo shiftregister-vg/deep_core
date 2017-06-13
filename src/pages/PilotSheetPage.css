@@ -3,8 +3,13 @@
   flex-flow: row wrap;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .pilot-sheet a {
   text-decoration: none;
+}
+
+.pilot-sheet .pilot-card {
+  margin-bottom: 1rem;
 }

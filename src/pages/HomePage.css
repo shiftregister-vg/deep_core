@@ -1,9 +1,3 @@
-.home-page a, .home-page a:visited, .home-page a:active {
-  color: white;
-  text-decoration: underline;
-}
-
-.home-page a:hover {
-  color: white;
-  text-decoration: none;
+.home-page {
+  padding: 0 1rem;
 }
