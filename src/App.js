@@ -10,8 +10,6 @@ import {
 } from './pages'
 import './App.css'
 
-// #Doing: Add material-ui id:9 gh:9
-
 class App extends Component {
   render() {
     return (
