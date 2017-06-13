@@ -27,7 +27,7 @@ The other tools I've seen out there are using techniques and technology that is 
 
 ## There are other tools already!
 
-Yep. And they work just fine. I'm a developer by trade and hobby, I prefer to build my own stuff. It's nothing against those other tools, I just like mine better. ¯\_(ツ)_/¯
+Yep. And they work just fine. I'm a developer by trade and hobby, I prefer to build my own stuff. It's nothing against those other tools, I just like mine better. ¯\\\_(ツ)\_/¯
 
 ## I love getting help
 
