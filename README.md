@@ -32,4 +32,4 @@ Yep. And they work just fine. I'm a developer by trade and hobby, I prefer to bu
 
 ## I love getting help
 
-If you feel like this is a project you would like to contribute to please consider [forking](https://github.com/stevegood/mxwsb/projects#fork-destination-box) and submitting pull requests. You can see the list of tasks I'm working on in the [Projects section](https://github.com/stevegood/mxwsb/projects).
+If you feel like this is a project you would like to contribute to please consider [forking](https://github.com/stevegood/mxwsb/projects#fork-destination-box) and submitting pull requests. I try to keep track of all items in [waffle.io](https://waffle.io/stevegood/mxwsb).
