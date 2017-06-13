@@ -30,18 +30,12 @@ it('should ignore epic ships', () => {
 
   const ships = getShipNames(some_pilots)
 
-  expect(ships.length).toEqual(2)
-  expect(ships).toContain('X-wing')
-  expect(ships).toContain('TIE Fighter')
   expect(ships).toEqual(['TIE Fighter', 'X-wing'])
 })
 
 it('should return ships in alphabetical order', () => {
   const ships = getShipNames(simulated_pilots)
 
-  expect(ships.length).toEqual(2)
-  expect(ships).toContain('X-wing')
-  expect(ships).toContain('TIE Fighter')
   expect(ships[0]).toEqual('TIE Fighter')
   expect(ships[1]).toEqual('X-wing')
 })
