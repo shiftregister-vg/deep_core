@@ -10,12 +10,12 @@ This started as a pet project in order for me to learn more about the available 
 
 I have lofty goals
 
-[] Collection manager
-[] Squad builder
-[] Squad browser
-[] Squad rankings
-[] Purchase advisor
-[] Maneuver simulator ( I like practising flying my ships [with sounds!] ;p )
+- [] Collection manager
+- [] Squad builder
+- [] Squad browser
+- [] Squad rankings
+- [] Purchase advisor
+- [] Maneuver simulator ( I like practising flying my ships [with sounds!] ;p )
 
 ## Why 'Modern'?
 
