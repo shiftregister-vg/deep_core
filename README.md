@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/stevegood/mxwsb.png?label=ready&title=Ready)](https://waffle.io/stevegood/mxwsb?utm_source=badge)
 # Modern X-Wing Squad Builder
 
 [![Build Status](https://travis-ci.org/stevegood/mxwsb.svg?branch=master)](https://travis-ci.org/stevegood/mxwsb)
