@@ -4,7 +4,7 @@
 
 ## About
 
-This started as a pet project in order for me to learn more about the available pilots, ships, upgrades, etc for X-Wings TMG. If other people end up finding it useful too then that's great! :)
+This started as a pet project in order for me to learn more about the available pilots, ships, upgrades, etc for X-Wings TMG. If other people end up finding it useful too then that's great! :smiley:
 
 ## Goals
 
@@ -15,7 +15,7 @@ I have lofty goals
 - [ ] Squad browser
 - [ ] Squad rankings
 - [ ] Purchase advisor
-- [ ] Maneuver simulator ( I like practising flying my ships [with sounds!] ;p )
+- [ ] Maneuver simulator ( I like practising flying my ships [with sounds!] :stuck_out_tongue: )
 
 ## Why 'Modern'?
 
