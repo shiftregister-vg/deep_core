@@ -1,3 +1,47 @@
-.app {
-  padding-top: 65px;
+.app {}
+
+.background-styles {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background-color: #151515;
+}
+
+.bg_stars_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-image: url('images/bg_stars_left.jpg');
+  background-repeat: repeat-y;
+  background-position: left center;
+  background-size: 100% auto;
+}
+
+.bg_stars_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1700px;
+  width: 200px;
+  background-image: url('images/bg_stars_right.jpg');
+  background-repeat: repeat-y;
+  background-position: right center;
+  background-size: 100% auto;
+}
+
+.app-content {
+  padding-top: 85px;
+  color: #aaa;
+  min-height: 586px;
+  min-width: 260px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  cursor: pointer;
 }
