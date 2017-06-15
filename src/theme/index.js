@@ -1,19 +1,24 @@
 import { getMuiTheme } from 'material-ui/styles'
 
-const blue    = '#3273c5'
-const green   = '#419a5a'
-const orange  = '#e15021'
-const white   = '#eeeeee'
-const gray    = '#282727'
-const yellow  = '#d2872c'
+const blue         = '#3273c5'
+const lightBlue    = '#529cf9'
+const green        = '#419a5a'
+const orange       = '#e15021'
+const white        = '#eeeeee'
+const gray         = '#282727'
+const darkGray     = '#151515'
+const lightOrange  = '#d2872c'
+const yellow       = '#edec51'
 
 const theme_props = {
+  fontFamily: 'Abel, sans-serif',
   palette: {
     textColor: white,
-    primary1Color: blue,
-    primary2Color: green,
-    accent1Color: orange,
-    accent2Color: yellow,
+    primary1Color: darkGray,
+    primary2Color: blue,
+    accent1Color: darkGray,
+    accent2Color: lightOrange,
+    accent3Color: yellow,
     canvasColor: gray
   },
   appBar: {
@@ -22,8 +27,10 @@ const theme_props = {
     textColor: white
   },
   raisedButton: {
-    color: white,
-    textColor: gray
+    color: darkGray,
+    textColor: yellow,
+    primaryTextColor: lightBlue,
+    secondaryTextColor: orange
   }
 }
 
