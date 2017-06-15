@@ -16,6 +16,7 @@ const theme_props = {
     textColor: white,
     primary1Color: darkGray,
     primary2Color: blue,
+    primary3Color: green,
     accent1Color: darkGray,
     accent2Color: lightOrange,
     accent3Color: yellow,
