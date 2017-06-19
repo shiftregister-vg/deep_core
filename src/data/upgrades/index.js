@@ -14,6 +14,23 @@ import tech from './tech'
 import torpedo from './torpedo'
 import turret from './turret'
 
+const combined = []
+  .concat(astromech)
+  .concat(bomb)
+  .concat(cannon)
+  .concat(cargo)
+  .concat(crew)
+  .concat(elite)
+  .concat(hardpoint)
+  .concat(illicit)
+  .concat(missile)
+  .concat(salvaged_astromech)
+  .concat(system)
+  .concat(team)
+  .concat(tech)
+  .concat(torpedo)
+  .concat(turret)
+
 const upgrades = {
   astromech,
   bomb,
@@ -34,6 +51,7 @@ const upgrades = {
 
 export default upgrades
 export {
+  combined,
   astromech,
   bomb,
   cannon,
