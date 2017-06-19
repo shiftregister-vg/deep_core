@@ -21,7 +21,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="app">
           <AppBar
-            title={<span className="title">Modern X-wing Squad Builder</span>}
+            title={<span className="title">Deep Core</span>}
             onTitleTouchTap={this.handleTitleTouchTap}
             style={{position: 'fixed'}} />
 

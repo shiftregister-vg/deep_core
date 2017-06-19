@@ -1,7 +1,9 @@
 {
-  "name": "mxwsb",
+  "name": "deep_core",
   "version": "0.1.7",
   "private": true,
+  "description": "Deep Core: An X-Wing Miniatures tool",
+  "author": "Steve Good <sgood@lanctr.com>",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "gh-pages": "^1.0.0",
@@ -31,5 +33,5 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
-  "homepage": "http://www.stevegood.rocks/mxwsb"
+  "homepage": "http://www.stevegood.rocks/deep_core"
 }

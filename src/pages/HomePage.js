@@ -23,7 +23,7 @@ class HomePage extends Component {
             <Link to="/pilot-sheet">
               <RaisedButton label="Check out the pilot card sheet" primary />
             </Link>
-            <a href="https://github.com/stevegood/mxwsb/issues" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/stevegood/deep_core/issues" target="_blank" rel="noopener noreferrer">
               <RaisedButton label="let me know what I left out" secondary />
             </a>
           </CardActions>
