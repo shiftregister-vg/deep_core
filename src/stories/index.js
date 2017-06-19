@@ -41,6 +41,9 @@ const style = {
   pilot: {
     marginBottom: 25
   },
+  upgrade: {
+    marginBottom: 15
+  },
   flex: {
     display: 'flex',
     flexFlow: 'row wrap',
@@ -98,7 +101,11 @@ const style = {
     <div>
       <h2>{type}</h2>
       <div style={style.flex}>
-        {upgrades.map(upgrade => <UpgradeCard key={upgrade.id} {...upgrade} />)}
+        {upgrades.map(upgrade => (
+          <div key={upgrade.id} style={style.upgrade}>
+            <UpgradeCard {...upgrade} />
+          </div>
+        ))}
       </div>
     </div>
   )

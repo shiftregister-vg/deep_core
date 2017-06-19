@@ -2,9 +2,10 @@
   flex-basis: 43%;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
+  text-align: center;
 }
 
 .text-wrapper .xwing-miniatures-font {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
