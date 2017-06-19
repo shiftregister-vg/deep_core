@@ -10,3 +10,22 @@
   margin: auto;
   font-family: 'Abel', sans-serif;
 }
+
+.upgrade-card .content-area {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+.upgrade-card .content-area .text-wrapper {
+
+}
+
+.upgrade-card .content-area .range {
+  text-align: right;
+}
+
+.upgrade-card .content-area .range span {
+  background: black;
+  color: white;
+}

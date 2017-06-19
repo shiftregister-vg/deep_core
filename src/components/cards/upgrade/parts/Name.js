@@ -7,9 +7,16 @@ const propTypes = {
   text: PropTypes.string.isRequired
 }
 
-const Name = ({text, unique}) => (
-  <div className="name">
-    <DynamicFont content={`${unique ? '•' : ''}${text}`} />
+const Name = ({damage, text, unique}) => (
+  <div className={`name ${damage ? 'damage' : ''}`}>
+    <div className="text">
+      <DynamicFont smooth content={`${unique ? '•' : ''}${text}`} />
+    </div>
+    {damage ? (
+      <div className="value">
+        <DynamicFont smooth content={damage} />
+      </div>
+    ) : null}
   </div>
 )
 

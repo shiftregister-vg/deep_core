@@ -1,8 +1,27 @@
 .name {
   flex-basis: 9%;
-  text-align: center;
-  align-content: center;
-  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.name .text {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.name.damage .text {
+  padding-left: 0.5rem;
+  flex-basis: 80%;
+}
+
+.name.damage .value {
+  flex-basis: 20%;
+  text-align: right;
+  padding-right: 0.5rem;
+  font-weight: bold;
+  color: red;
 }

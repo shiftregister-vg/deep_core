@@ -9,11 +9,23 @@ import './Upgrade.css'
 const UpgradeCard = (props) => (
   <div className="upgrade-card">
     <Art image={props.image} />
-    <Name text={props.name} unique={props.unique} />
-    <TextWrapper
-      action={props.action}
-      text={props.text}
-      text2={props.text2} />
+    <Name
+      damage={props.damage}
+      text={props.name}
+      unique={props.unique} />
+    <div className="content-area">
+      <TextWrapper
+        action={props.action}
+        attack={props.attack}
+        restrictions={props.restrictions}
+        text={props.text}
+        text2={props.text2} />
+      {props.range ? (
+        <div className="range">
+          <span>{props.range}</span>
+        </div>
+      ) : null}
+    </div>
     <Bottom type={props.type} value={props.value} />
   </div>
 )
