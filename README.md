@@ -1,13 +1,17 @@
 
-[![Stories Ready](https://badge.waffle.io/stevegood/mxwsb.png?label=ready&title=Ready)](https://waffle.io/stevegood/mxwsb?utm_source=badge) [![Build Status](https://travis-ci.org/stevegood/mxwsb.svg?branch=master)](https://travis-ci.org/stevegood/mxwsb)
+[![Stories Ready](https://badge.waffle.io/stevegood/deep_core.png?label=ready&title=Ready)](https://waffle.io/stevegood/deep_core?utm_source=badge) [![Build Status](https://travis-ci.org/stevegood/deep_core.svg?branch=master)](https://travis-ci.org/stevegood/deep_core)
 
 ---
 
-# Modern X-Wing Squad Builder
+# Deep Core: An X-Wing Miniatures tool
 
 ## About
 
 This started as a pet project in order for me to learn more about the available pilots, ships, upgrades, etc for [X-wing Miniatures](https://www.fantasyflightgames.com/en/products/x-wing/). If other people end up finding it useful too then that's great! :smiley:
+
+## Deep Core?
+
+According to Star Wars Canon, [The Deep Core](http://starwars.wikia.com/wiki/Deep_Core) is the heart of the galaxy and home to the Wellspring of Life, the birthplace of the midichlorians. I thought this was appropriate given my [lofty goals](#goals). Also, it sounds pretty cool!
 
 ## Goals
 
@@ -20,7 +24,9 @@ I have lofty goals
 - [ ] Purchase advisor
 - [ ] Maneuver simulator ( I like practising flying my ships [with sounds!] :stuck_out_tongue: )
 
-## Why 'Modern'?
+## There are other tools already!
+
+Yep. And they work just fine. I'm a developer by trade and hobby, I prefer to build my own stuff. It's nothing against those other tools, I just like mine better. ¯\\\_(ツ)\_/¯
 
 The other tools I've seen out there are using techniques and technology that is dated. I'm building this application with a more modern toolset.
 
@@ -28,10 +34,6 @@ The other tools I've seen out there are using techniques and technology that is 
 - Redux
 - Material Design
 
-## There are other tools already!
-
-Yep. And they work just fine. I'm a developer by trade and hobby, I prefer to build my own stuff. It's nothing against those other tools, I just like mine better. ¯\\\_(ツ)\_/¯
-
 ## I love getting help
 
-If you feel like this is a project you would like to contribute to please consider [forking](https://github.com/stevegood/mxwsb/projects#fork-destination-box) and submitting pull requests. I try to keep track of all items in [waffle.io](https://waffle.io/stevegood/mxwsb).
+If you feel like this is a project you would like to contribute to please consider [forking](https://github.com/stevegood/deep_core/projects#fork-destination-box) and submitting pull requests. I try to keep track of all items in [waffle.io](https://waffle.io/stevegood/deep_core).
