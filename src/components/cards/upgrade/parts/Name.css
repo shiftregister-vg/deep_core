@@ -1,0 +1,8 @@
+.name {
+  flex-basis: 9%;
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

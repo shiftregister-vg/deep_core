@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Action.css'
 
 const propTypes = {
   text: PropTypes.string.isRequired

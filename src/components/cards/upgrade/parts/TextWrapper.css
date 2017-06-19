@@ -1,0 +1,10 @@
+.text-wrapper {
+  flex-basis: 43%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 0.8rem;
+}
+
+.text-wrapper .xwing-miniatures-font {
+  font-size: 0.85rem;
+}
