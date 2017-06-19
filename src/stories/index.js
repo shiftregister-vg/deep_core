@@ -12,7 +12,25 @@ import pilots, {
   scum_pilots
 } from '../data/pilots'
 import {
-  PilotCard
+  astromech,
+  bomb,
+  cannon,
+  cargo,
+  crew,
+  elite,
+  hardpoint,
+  illicit,
+  missile,
+  salvaged_astromech,
+  system,
+  team,
+  tech,
+  torpedo,
+  turret
+} from '../data/upgrades'
+import {
+  PilotCard,
+  UpgradeCard
 } from '../components/cards'
 
 /**
@@ -80,27 +98,27 @@ const style = {
     <div>
       <h2>{type}</h2>
       <div style={style.flex}>
-        {upgrades.map(upgrade => <div key={upgrade.id}></div>)}
+        {upgrades.map(upgrade => <UpgradeCard key={upgrade.id} {...upgrade} />)}
       </div>
     </div>
   )
 
   // upgrade card stories
   const stories = storiesOf('Upgrade Cards', module)
-    .add('Astromechs', () => cards('Astromechs', []))
-    .add('Bomb', () => cards('Bomb', []))
-    .add('Cannon', () => cards('Cannon', []))
-    .add('Cargo', () => cards('Cargo', []))
-    .add('Crew', () => cards('Crew', []))
-    .add('Elite', () => cards('Elite', []))
-    .add('Hardpoint', () => cards('Hardpoint', []))
-    .add('Illicit', () => cards('Illicit', []))
-    .add('Missiles', () => cards('Missiles', []))
-    .add('Torpedoes', () => cards('Torpedoes', []))
-    .add('Salvaged Astromechs', () => cards('Salvaged Astromechs', []))
-    .add('System', () => cards('System', []))
-    .add('Team', () => cards('Team', []))
-    .add('Tech', () => cards('Tech', []))
-    .add('Turret', () => cards('Turret', []))
+    .add('Astromech', () => cards('Astromech', astromech))
+    .add('Bomb', () => cards('Bomb', bomb))
+    .add('Cannon', () => cards('Cannon', cannon))
+    .add('Cargo', () => cards('Cargo', cargo))
+    .add('Crew', () => cards('Crew', crew))
+    .add('Elite', () => cards('Elite', elite))
+    .add('Hardpoint', () => cards('Hardpoint', hardpoint))
+    .add('Illicit', () => cards('Illicit', illicit))
+    .add('Missile', () => cards('Missile', missile))
+    .add('Salvaged Astromech', () => cards('Salvaged Astromech', salvaged_astromech))
+    .add('System', () => cards('System', system))
+    .add('Team', () => cards('Team', team))
+    .add('Tech', () => cards('Tech', tech))
+    .add('Torpedo', () => cards('Torpedo', torpedo))
+    .add('Turret', () => cards('Turret', turret))
 }
 // End --> Upgrade cards

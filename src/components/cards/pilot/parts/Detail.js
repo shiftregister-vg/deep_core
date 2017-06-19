@@ -1,13 +1,6 @@
 import React from 'react'
 import './Detail.css'
-
-const processTextForIcons = (text) => {
-  const pattern = /__(\w+)__/g
-  return text.replace(
-    pattern,
-    '<i class="xwing-miniatures-font xwing-miniatures-font-$1"></i>'
-  )
-}
+import { processTextForIcons } from '../../../../util'
 
 const StatBox = ({stat, value}) => (
   <div className={`${stat} box`}>
