@@ -17,6 +17,7 @@ const UpgradeCard = (props) => (
       <TextWrapper
         action={props.action}
         attack={props.attack}
+        energy={props.energy}
         restrictions={props.restrictions}
         text={props.text}
         text2={props.text2} />
