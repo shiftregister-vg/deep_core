@@ -18,6 +18,7 @@ const UpgradeCard = (props) => (
         action={props.action}
         attack={props.attack}
         energy={props.energy}
+        limited={props.limited}
         restrictions={props.restrictions}
         text={props.text}
         text2={props.text2} />
