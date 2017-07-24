@@ -1,4 +1,5 @@
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da68dd6e8a024d5a8d8a4e739a840b49)](https://www.codacy.com/app/sgood/deep_core?utm_source=github.com&utm_medium=referral&utm_content=stevegood/deep_core&utm_campaign=badger)
 [![Stories Ready](https://badge.waffle.io/stevegood/deep_core.png?label=ready&title=Ready)](https://waffle.io/stevegood/deep_core?utm_source=badge) [![Build Status](https://travis-ci.org/stevegood/deep_core.svg?branch=master)](https://travis-ci.org/stevegood/deep_core)
 
 ---
